@@ -15,7 +15,7 @@ ul {
   list-style: none;
 }
 
-button, .dark-mode nav button:hover, input, select {
+button, .dark-mode .topnav button:hover, input, select {
   margin: 0;
 }
 
@@ -51,11 +51,17 @@ body html {
   height: 100%;
 }
 
+* {
+  cursor: crosshair;
+}
+
 body {
   background-image: url("../assets/img/background.png");
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: ease-in 0.6s;
+  transition: ease-in 0.6s;
 }
 
 .close, .close :hover {
@@ -85,15 +91,17 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: ease-in 0.6s;
+  transition: ease-in 0.6s;
 }
 
-.dark-mode nav {
+.dark-mode .topnav {
   background: linear-gradient(344.38deg, rgba(0, 0, 0, 0.6) 12.66%, rgba(0, 0, 0, 0.74) 89.61%);
   color: white;
   border: black;
 }
 
-.dark-mode nav button, .dark-mode nav button:hover {
+.dark-mode .topnav button, .dark-mode .topnav button:hover {
   font-family: "Source Code Pro", sans-serif;
   color: white;
   margin-left: 200px;
@@ -111,7 +119,7 @@ body {
   cursor: pointer;
 }
 
-.dark-mode nav button:hover {
+.dark-mode .topnav button:hover {
   -webkit-box-shadow: inset 3px -4px 4px rgba(255, 255, 255, 0.25), inset -3px 4px 4px rgba(247, 247, 247, 0.25);
           box-shadow: inset 3px -4px 4px rgba(255, 255, 255, 0.25), inset -3px 4px 4px rgba(247, 247, 247, 0.25);
 }

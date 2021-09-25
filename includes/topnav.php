@@ -1,15 +1,17 @@
 <nav class="topnav">
     <div>
-        <span>logo</span>
+        <span id='logo'><img src="../assets/icons/logo.svg" alt="" srcset=""></span>
         <button calss ='close' id='btn'><h1>Williams Chazal</h1></button>
     </div>
     
     <div id="digital-clock__time">
-            <span id="digital-clock__time--hours"></span><span>:</span>
-            <span id="digital-clock__time--minutes"></span><span>:</span>
+            <span id="digital-clock__time--hours"></span>
+            <span>:</span>
+            <span id="digital-clock__time--minutes"></span>
+            <span>:</span>
             <span id="digital-clock__time--seconds"></span>
             <span id="digital-clock__date--day"></span>
-            <span><?php include('../includes/libs/switch.php')?></span>
+            <span id='switch'><?php include('../includes/libs/switch.php')?></span>
      </div>
 </nav>
 <div class='modal'>
