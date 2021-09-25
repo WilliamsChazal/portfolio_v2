@@ -1,0 +1,167 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+@import url("http://fonts.cdnfonts.com/css/digital-7-mono");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, nav button:hover, input, select {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+body html {
+  height: 100%;
+}
+
+* {
+  border: red solid 1px;
+}
+
+body {
+  background-image: url("../../assets/img/background.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.close {
+  width: 29.05px;
+  height: 29px;
+  left: 897px;
+  background: #FD0808;
+  -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  border: 2px solid #FFFEFE;
+  background: linear-gradient(270.02deg, rgba(218, 212, 212, 0) 0.02%, rgba(224, 221, 221, 0.24) 35.2%, rgba(215, 211, 211, 0.38) 79.19%, rgba(197, 194, 194, 0.51) 99.37%);
+  height: 70px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 120px;
+  font-family: "Open Sans", sans-serif !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav button, nav button:hover {
+  margin-left: 200px;
+  width: 256px;
+  height: 40px;
+  left: 127px;
+  top: 20px;
+  -webkit-box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
+  border: 1px solid #E9E3E3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 120px;
+  background: none;
+}
+
+nav button:hover {
+  -webkit-box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav div :nth-child(1) {
+  margin-left: 15px;
+}
+
+nav div#digital-clock__time {
+  font-family: "Digital-7 Mono" !important;
+  font-size: 28px;
+}
+
+.about-me {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 239, 239, 0.95)), to(rgba(219, 219, 219, 0.893)));
+  background: linear-gradient(180deg, rgba(242, 239, 239, 0.95) 0%, rgba(219, 219, 219, 0.893) 100%);
+  width: 687px;
+  height: 518px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px 0px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 50px;
+}
+
+.about-me p {
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 20px;
+  padding-top: 25px;
+  padding-left: 25px;
+  width: 50%;
+}
+
+.about-me div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+}
+
+.about-me div span:nth-child(1) {
+  text-align: center;
+  margin-top: 15%;
+}
+/*# sourceMappingURL=topnav.css.map */
