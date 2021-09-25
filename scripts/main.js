@@ -22,7 +22,7 @@ btn__2.onclick = function() {
   modal_2.style.display = "none";
 }
 
-// Make the DIV element draggable:
+/* // Make the DIV element draggable:
 dragElement(document.getElementById("list_projet"));
 
 function dragElement(elmnt) {
@@ -64,4 +64,4 @@ function dragElement(elmnt) {
     document.onmouseup = null;
     document.onmousemove = null;
   }
-}
+} */
