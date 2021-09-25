@@ -101,6 +101,16 @@ body {
   border: black;
 }
 
+.dark-mode .topnav #logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  -webkit-box-shadow: inset 3px -2px 4px 2px rgba(160, 158, 158, 0.25);
+          box-shadow: inset 3px -2px 4px 2px rgba(160, 158, 158, 0.25);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
 .dark-mode .topnav button, .dark-mode .topnav button:hover {
   font-family: "Source Code Pro", sans-serif;
   color: white;
@@ -128,5 +138,27 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), to(rgba(0, 0, 0, 0.893)));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.893) 100%);
   color: white;
+}
+
+.dark-mode .bottomNav nav {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.5025)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5025) 100%);
+  border: 1px solid black;
+}
+
+.dark-mode .bottomNav nav p {
+  margin-left: 50px;
+  margin-bottom: 15px;
+  font-family: "Source Code Pro", sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px 10px 10px 10px;
+}
+
+.dark-mode .bottomNav nav img {
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
 }
 /*# sourceMappingURL=dark-mode.css.map */

@@ -2,6 +2,7 @@
 
 $linear-dark-1: linear-gradient(344.38deg, rgba(0, 0, 0, 0.6) 12.66%, rgba(0, 0, 0, 0.74) 89.61%);
 $linear-dark-2: linear-gradient(180deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0) 100%);
+$linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5025) 100%);
 .dark-mode{
        
             background-image: url('../assets/img/backgroundDark.png');
@@ -14,6 +15,14 @@ $linear-dark-2: linear-gradient(180deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0)
             background: $linear-dark-1;
             color: $color-1;
             border: $color-2;
+            #logo{
+                width: 50px;
+                height: 50px;
+                margin-left: 50px;
+                box-shadow: inset 3px -2px 4px 2px rgba(160, 158, 158, 0.25);
+                border-radius: 50px;
+                cursor: pointer;
+            }
                 button{
                     font-family: $font-1;
                     color: $color-1;
@@ -38,7 +47,23 @@ $linear-dark-2: linear-gradient(180deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0)
         background:linear-gradient(180deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.893) 100%); 
         color: $color-1;
     }
-     .switch{
-       
+     .bottomNav{
+       nav{
+        background:$linear-dark-3;
+        border: 1px solid black;
+            p{
+                margin-left: 50px;
+                margin-bottom: 15px;
+                font-family: $font-1;
+                background:$color-2;
+                color: $color-1;
+                text-align: center;
+                border-radius: 25px;
+                padding: 10px 10px 10px 10px;
+            }
+            img{
+               filter: brightness(75%); 
+            }
+       }
             } 
 }
