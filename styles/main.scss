@@ -13,6 +13,7 @@ $font-2 :'Open Sans Bold',sans-serif;
 $font-3: 'Digital-7 Mono';
 body html{
     height: 100%;
+    overflow: hidden;
 }
 *{
     cursor: crosshair;
@@ -23,6 +24,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     transition: ease-in 0.6s;
+    overflow: hidden;
 }
 
 .close{

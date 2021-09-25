@@ -146,6 +146,10 @@ body {
   border: 1px solid black;
 }
 
+.dark-mode .bottomNav nav span {
+  color: white;
+}
+
 .dark-mode .bottomNav nav p {
   margin-left: 50px;
   margin-bottom: 15px;
@@ -160,5 +164,9 @@ body {
 .dark-mode .bottomNav nav img {
   -webkit-filter: brightness(75%);
           filter: brightness(75%);
+}
+
+.dark-mode .bottomNav nav #line {
+  background: white;
 }
 /*# sourceMappingURL=dark-mode.css.map */

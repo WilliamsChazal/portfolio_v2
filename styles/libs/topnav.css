@@ -49,6 +49,11 @@ td, th {
 
 body html {
   height: 100%;
+  overflow: hidden;
+}
+
+* {
+  cursor: crosshair;
 }
 
 body {
@@ -56,6 +61,9 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: ease-in 0.6s;
+  transition: ease-in 0.6s;
+  overflow: hidden;
 }
 
 .close, .close :hover {

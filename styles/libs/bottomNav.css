@@ -140,11 +140,10 @@ section.bottomNav nav div p {
   padding: 10px 10px 10px 10px;
 }
 
-section.bottomNav nav span {
+section.bottomNav nav #line {
+  right: 420px;
+  position: absolute;
   height: 80%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   width: 5px;
   background: black;
 }

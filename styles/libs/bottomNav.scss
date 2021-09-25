@@ -35,9 +35,10 @@ section.bottomNav{
                             padding: 10px 10px 10px 10px;
                         }
                 }
-            span{
+                #line{ //a modifier
+                right: 420px;
+                position: absolute;
                 height: 80%;
-                justify-content: center;
                 width: 5px;
                 background: black;
             }

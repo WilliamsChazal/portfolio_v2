@@ -51,6 +51,9 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
        nav{
         background:$linear-dark-3;
         border: 1px solid black;
+            span{
+                color: $color-1;
+            }
             p{
                 margin-left: 50px;
                 margin-bottom: 15px;
@@ -64,6 +67,9 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
             img{
                filter: brightness(75%); 
             }
+            #line{
+                background: $color-1;
+            }
        }
-            } 
+    } 
 }
