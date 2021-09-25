@@ -1,0 +1,40 @@
+@import 'main.scss';
+
+$linear-dark-1: linear-gradient(344.38deg, rgba(0, 0, 0, 0.6) 12.66%, rgba(0, 0, 0, 0.74) 89.61%);
+$linear-dark-2: linear-gradient(180deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0) 100%);
+.dark-mode{
+       
+            background-image: url('../assets/img/backgroundDark.png');
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        nav{
+            background: $linear-dark-1;
+            color: $color-1;
+            border: $color-2;
+                button{
+                    font-family: $font-1;
+                    color: $color-1;
+                    margin-left: 200px;
+                    width: 256px;
+                    height: 40px;
+                    left: 127px;
+                    top: 20px;
+                    box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
+                    border: 1px solid #3a3939;
+                    box-sizing: border-box;
+                    border-radius: 120px;
+                    background: none; 
+                    cursor: pointer;      
+                }
+                    button:hover {
+                        @extend button;
+                        box-shadow: inset 3px -4px 4px rgba(255, 255, 255, 0.25), inset -3px 4px 4px rgba(247, 247, 247, 0.25);
+                    }
+        }
+    div #about-me{
+        background:linear-gradient(180deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.893) 100%); 
+        color: $color-1;
+    }
+}

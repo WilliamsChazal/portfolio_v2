@@ -6,17 +6,16 @@
 $color-1: white;
 $color-2:black;
 $linear-1:linear-gradient(270.02deg, rgba(218, 212, 212, 0) 0.02%, rgba(224, 221, 221, 0.24) 35.2%, rgba(215, 211, 211, 0.38) 79.19%, rgba(197, 194, 194, 0.51) 99.37%);
-$linear-2: linear-gradient(180deg, rgba(242, 239, 239, 0.95) 0%, rgba(219, 219, 219, 0.893) 100%);
-$font-1:'Open Sans', sans-serif ;
+$linear-2: linear-gradient(180deg, rgba(242, 239, 239, 0.479) 0%, rgba(219, 219, 219, 0.61) 0%);
+$font-1:'Source Code Pro', sans-serif ;
 $font-2 :'Open Sans Bold',sans-serif;
 $font-3: 'Digital-7 Mono';
-
 body html{
     height: 100%;
 }
 
 body{
-    background-image: url('../../assets/img/background.png');
+    background-image: url('../assets/img/background.png');
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +24,6 @@ body{
 .close{
     width: 29.05px;
     height: 29px;
-    left: 897px;
     background: #FD0808;
     box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
     border-radius: 50px;

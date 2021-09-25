@@ -1,8 +1,9 @@
  @import '../main.scss'; 
+ @import '../dark-mode.scss'; 
 
 nav{
     display: flex;
-    width: 90%;
+    width: 100%;
     border:  2px solid #FFFEFE;
     background: $linear-1;
     height: 70px;
@@ -38,6 +39,7 @@ nav{
             div#digital-clock__time{
                 font-family:$font-3 !important;
                 font-size: 28px; 
+                margin-right: 25px;
             }
 }
 
@@ -50,6 +52,7 @@ nav{
     display: flex;
     justify-content: space-around;
     margin-left: 50px;
+    font-family: $font-1;
         p{
             font-family: $font-1;
             height: 100%;
@@ -73,7 +76,7 @@ nav{
                         margin-top: 15%;
                     }
                     span:nth-child(3){
-                        margin-top: 30%;
+                        margin-top: 20%;
                         text-align: end;
                     }
                     
