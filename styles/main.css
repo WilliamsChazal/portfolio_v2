@@ -51,10 +51,6 @@ body html {
   height: 100%;
 }
 
-* {
-  border: red solid 1px;
-}
-
 body {
   background-image: url("../../assets/img/background.png");
   height: 100%;
@@ -62,7 +58,7 @@ body {
   background-size: cover;
 }
 
-.close {
+.close, .close :hover {
   width: 29.05px;
   height: 29px;
   left: 897px;
@@ -70,5 +66,18 @@ body {
   -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
           box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.close :hover {
+  background: blue;
+  -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

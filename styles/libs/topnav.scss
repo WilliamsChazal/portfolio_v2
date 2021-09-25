@@ -6,13 +6,15 @@ nav{
     border:  2px solid #FFFEFE;
     background: $linear-1;
     height: 70px;
+    margin-top: 10px;
     box-sizing: border-box;
     border-radius: 120px;
-    font-family: $font-1!important;
+    font-family: $font-2!important;
     justify-content: space-between;
     align-items: center;
 
         button{
+            font-family: $font-1;
             margin-left: 200px;
             width: 256px;
             height: 40px;
@@ -22,7 +24,8 @@ nav{
             border: 1px solid #E9E3E3;
             box-sizing: border-box;
             border-radius: 120px;
-            background: none;       
+            background: none; 
+            cursor: pointer;      
         }
             button:hover {
                 @extend button;
@@ -38,10 +41,9 @@ nav{
             }
 }
 
-.about-me{
+#about-me{
     background: $linear-2;
     width: 687px;
-    height: 518px;
     left: 0px;
     top: 0px;
     border-radius: 0px 0px 10px 10px;
@@ -64,10 +66,19 @@ nav{
                 width: 45%; 
                     span:nth-child(1){
                         text-align: center;
-                        margin-top: 15%;
+                        margin-top: 20%;
                     } 
+                    span:nth-child(2){
+                        text-align: center;
+                        margin-top: 15%;
+                    }
+                    span:nth-child(3){
+                        margin-top: 30%;
+                        text-align: end;
+                    }
                     
             }
 }
+
 
 

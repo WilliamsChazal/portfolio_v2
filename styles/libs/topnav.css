@@ -51,10 +51,6 @@ body html {
   height: 100%;
 }
 
-* {
-  border: red solid 1px;
-}
-
 body {
   background-image: url("../../assets/img/background.png");
   height: 100%;
@@ -62,7 +58,7 @@ body {
   background-size: cover;
 }
 
-.close {
+.close, .close :hover {
   width: 29.05px;
   height: 29px;
   left: 897px;
@@ -70,6 +66,19 @@ body {
   -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
           box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.close :hover {
+  background: blue;
+  -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  display: none;
 }
 
 nav {
@@ -80,10 +89,11 @@ nav {
   border: 2px solid #FFFEFE;
   background: linear-gradient(270.02deg, rgba(218, 212, 212, 0) 0.02%, rgba(224, 221, 221, 0.24) 35.2%, rgba(215, 211, 211, 0.38) 79.19%, rgba(197, 194, 194, 0.51) 99.37%);
   height: 70px;
+  margin-top: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 120px;
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Open Sans Bold", sans-serif !important;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -93,6 +103,7 @@ nav {
 }
 
 nav button, nav button:hover {
+  font-family: "Open Sans", sans-serif;
   margin-left: 200px;
   width: 256px;
   height: 40px;
@@ -105,6 +116,7 @@ nav button, nav button:hover {
           box-sizing: border-box;
   border-radius: 120px;
   background: none;
+  cursor: pointer;
 }
 
 nav button:hover {
@@ -121,11 +133,10 @@ nav div#digital-clock__time {
   font-size: 28px;
 }
 
-.about-me {
+#about-me {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 239, 239, 0.95)), to(rgba(219, 219, 219, 0.893)));
   background: linear-gradient(180deg, rgba(242, 239, 239, 0.95) 0%, rgba(219, 219, 219, 0.893) 100%);
   width: 687px;
-  height: 518px;
   left: 0px;
   top: 0px;
   border-radius: 0px 0px 10px 10px;
@@ -137,7 +148,7 @@ nav div#digital-clock__time {
   margin-left: 50px;
 }
 
-.about-me p {
+#about-me p {
   font-family: "Open Sans", sans-serif;
   height: 100%;
   -webkit-box-align: center;
@@ -149,7 +160,7 @@ nav div#digital-clock__time {
   width: 50%;
 }
 
-.about-me div {
+#about-me div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,8 +171,18 @@ nav div#digital-clock__time {
   width: 45%;
 }
 
-.about-me div span:nth-child(1) {
+#about-me div span:nth-child(1) {
+  text-align: center;
+  margin-top: 20%;
+}
+
+#about-me div span:nth-child(2) {
   text-align: center;
   margin-top: 15%;
+}
+
+#about-me div span:nth-child(3) {
+  margin-top: 30%;
+  text-align: end;
 }
 /*# sourceMappingURL=topnav.css.map */
