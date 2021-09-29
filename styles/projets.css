@@ -17,12 +17,52 @@
 }
 
 .modal-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #fefefe;
   margin: 15% auto;
   /* 15% from the top and centered */
-  padding: 20px;
+  /* padding: 20px; */
+  /* padding: 0px 20px 20px 20px; */
   border: 1px solid #888;
   width: 80%;
   /* Could be more or less, depending on screen size */
+  border-radius: 15px 15px 0px 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal-content div {
+  width: 100%;
+  margin-bottom: 20px;
+  border: red solid 1px;
+  display: inline-block;
+  z-index: 11;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.42)), to(rgba(255, 255, 255, 0.55)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.55) 100%);
+  border: 1px solid #181818;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0px 0px;
+}
+
+.modal-content div span {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.modal-content div h3 {
+  padding: 5px 10px 5px;
+}
+
+.modal-content p {
+  padding: 0px 20px 20px 20px;
 }
 /*# sourceMappingURL=projets.css.map */
