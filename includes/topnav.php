@@ -4,7 +4,7 @@
         <button calss ='close' id='btn'><h2>Williams Chazal</h2></button>
         
     </div>
-    <div><h1>Développeur Web & webdesigner</h1></div>
+    <div><h1>Développeur Web & Webdesigner</h1></div>
     <div id="digital-clock__time">
             <span id="digital-clock__time--hours"></span>
             <span>:</span>
