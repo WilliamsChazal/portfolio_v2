@@ -1,11 +1,11 @@
 .list_projet{
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
+    display: flex; /* Hidden by default */
+    /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    width: 50%; /* Full width */
+    height: 50%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
 
 }
@@ -15,11 +15,4 @@
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
-  }
-  #mydivheader {
-    padding: 10px;
-    cursor: move;
-    z-index: 10;
-    background-color: #2196F3;
-    color: #fff;
   }
