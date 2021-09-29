@@ -109,6 +109,12 @@ body {
           align-items: center;
 }
 
+.topnav h1 {
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
 .topnav div {
   display: -webkit-box;
   display: -ms-flexbox;

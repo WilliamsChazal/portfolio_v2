@@ -63,9 +63,10 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                 text-align: center;
                 border-radius: 25px;
                 padding: 10px 10px 10px 10px;
+                font-weight: 200;
             }
             img{
-               filter: brightness(75%); 
+               filter: brightness(90%); 
             }
             #line{
                 background: $color-1;

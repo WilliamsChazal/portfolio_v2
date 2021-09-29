@@ -34,9 +34,12 @@ section.bottomNav{
                             border-radius: 25px;
                             padding: 10px 10px 10px 10px;
                         }
+                            p{
+                                font-weight: 700;
+                            }
                 }
                 #line{ //a modifier
-                right: 420px;
+                right: 250px;
                 position: absolute;
                 height: 80%;
                 width: 5px;
@@ -47,12 +50,13 @@ section.bottomNav{
                 width: 80px;
                 height: auto;   
             }
-            img:hover{
+            .hover:hover{
                 cursor: pointer;
                 -ms-transform: scale(1.2); /* IE 9 */
                 -webkit-transform: scale(1.2); /* Safari 3-8 */
                 transform: scale(1.2);
             }
+
            #projet{
                text-align: center;
                p{

@@ -49,6 +49,7 @@ td, th {
 
 body html {
   height: 100%;
+  overflow: hidden;
 }
 
 * {
@@ -62,6 +63,7 @@ body {
   background-size: cover;
   -webkit-transition: ease-in 0.6s;
   transition: ease-in 0.6s;
+  overflow: hidden;
 }
 
 .close, .close :hover {
@@ -159,11 +161,12 @@ body {
   text-align: center;
   border-radius: 25px;
   padding: 10px 10px 10px 10px;
+  font-weight: 200;
 }
 
 .dark-mode .bottomNav nav img {
-  -webkit-filter: brightness(75%);
-          filter: brightness(75%);
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
 }
 
 .dark-mode .bottomNav nav #line {

@@ -13,6 +13,11 @@
     font-family: $font-2!important;
     justify-content: space-between;
     align-items: center;
+        h1{
+            font-family: $font-1;
+            font-weight: 400;
+            font-size: 36px;
+        }
         div{
             display: flex;
             align-items: center;

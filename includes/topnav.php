@@ -1,9 +1,10 @@
 <nav class="topnav">
     <div>
         <span id='logo'><img src="../assets/icons/logo.svg" alt="" srcset=""></span>
-        <button calss ='close' id='btn'><h1>Williams Chazal</h1></button>
+        <button calss ='close' id='btn'><h2>Williams Chazal</h2></button>
+        
     </div>
-    
+    <div><h1>Développeur Web & webdesigner</h1></div>
     <div id="digital-clock__time">
             <span id="digital-clock__time--hours"></span>
             <span>:</span>

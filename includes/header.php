@@ -8,9 +8,8 @@
         <link rel="stylesheet" href="../styles/libs/topnav.css">
         <link rel="stylesheet" href="../styles/libs/switch.css">
         <link rel="stylesheet" href="../styles/libs/bottomNav.css">
-        <link rel="stylesheet" href="../styles/libs/bottomNav.css">
         <link rel="stylesheet" href="../styles/dark-mode.css">
-        <link rel="stylesheet" href="../styles/liste-projet.css">
+        <link rel="stylesheet" href="../styles/projets.css">
         <title>Williams Chazal</title>
     </head>
     <body>
