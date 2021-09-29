@@ -18,6 +18,11 @@
             font-weight: 400;
             font-size: 36px;
         }
+        h2{
+            font-family: $font-1;
+            font-weight: 500;
+            font-size: 20px;
+        }
         div{
             display: flex;
             align-items: center;
@@ -47,7 +52,11 @@
                     }
                         button:hover {
                             @extend button;
+                            cursor: pointer;
                             box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
+                                h2{
+                                    font-size: 24px;
+                                }
                         }
                             div#digital-clock__time{
                                 font-family:$font-3 !important;

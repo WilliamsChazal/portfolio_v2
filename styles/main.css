@@ -52,10 +52,6 @@ body html {
   overflow: hidden;
 }
 
-* {
-  cursor: crosshair;
-}
-
 body {
   background-image: url("../assets/img/background.png");
   height: 100%;

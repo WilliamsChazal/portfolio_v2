@@ -52,10 +52,6 @@ body html {
   overflow: hidden;
 }
 
-* {
-  cursor: crosshair;
-}
-
 body {
   background-image: url("../assets/img/background.png");
   height: 100%;
@@ -115,6 +111,12 @@ body {
   font-size: 36px;
 }
 
+.topnav h2 {
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 .topnav div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -155,8 +157,13 @@ body {
 }
 
 .topnav button:hover {
+  cursor: pointer;
   -webkit-box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.topnav button:hover h2 {
+  font-size: 24px;
 }
 
 .topnav div#digital-clock__time {

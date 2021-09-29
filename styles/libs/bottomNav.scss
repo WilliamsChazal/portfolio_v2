@@ -27,16 +27,15 @@ section.bottomNav{
                     align-items: center;
                         p{
                             margin-left: 50px;
-                            margin-bottom: 15px;
+                            margin-bottom: 7px;
                             font-family: $font-1;
                             background:white;
                             text-align: center;
                             border-radius: 25px;
-                            padding: 10px 10px 10px 10px;
+                            padding: 5px 5px 5px 5px;
+                            
                         }
-                            p{
-                                font-weight: 700;
-                            }
+
                 }
                 #line{ //a modifier
                 right: 250px;
@@ -47,7 +46,7 @@ section.bottomNav{
             }
             img{
                 filter: contrast(90%);
-                width: 80px;
+                width: 60px;
                 height: auto;   
             }
             .hover:hover{
@@ -55,6 +54,7 @@ section.bottomNav{
                 -ms-transform: scale(1.2); /* IE 9 */
                 -webkit-transform: scale(1.2); /* Safari 3-8 */
                 transform: scale(1.2);
+                font-weight: 700;
             }
 
            #projet{

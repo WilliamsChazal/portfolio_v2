@@ -52,10 +52,6 @@ body html {
   overflow: hidden;
 }
 
-* {
-  cursor: crosshair;
-}
-
 body {
   background-image: url("../assets/img/background.png");
   height: 100%;
@@ -154,14 +150,13 @@ body {
 
 .dark-mode .bottomNav nav p {
   margin-left: 50px;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
   font-family: "Source Code Pro", sans-serif;
   background: black;
   color: white;
   text-align: center;
   border-radius: 25px;
-  padding: 10px 10px 10px 10px;
-  font-weight: 200;
+  padding: 5px 5px 5px 5px;
 }
 
 .dark-mode .bottomNav nav img {
