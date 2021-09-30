@@ -3,14 +3,15 @@ function myFunction() {
     element.classList.toggle("dark-mode");
   }
 
+
 // Get the modal
-let modal_2 = document.getElementsById("list_projet");
+let modal_2 = document.getElementsByClassName("modal_projets")[0];
 
 // Get the button that opens the modal
 let btn_2 = document.getElementById("openProjet");
 
 // Get the <span> element that closes the modal
-let btn__2 = document.getElementsByClassName("close")[0];
+let btn__2 = document.getElementsByClassName("close")[1];
 
 // When the user clicks on the button, open the modal
 btn_2.onclick = function() {
@@ -22,8 +23,8 @@ btn__2.onclick = function() {
   modal_2.style.display = "none";
 }
 
-/* // Make the DIV element draggable:
-dragElement(document.getElementById("list_projet"));
+// Make the DIV element draggable:
+dragElement(document.getElementsByClassName("mydiv"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -64,4 +65,4 @@ function dragElement(elmnt) {
     document.onmouseup = null;
     document.onmousemove = null;
   }
-} */
+}

@@ -7,7 +7,7 @@
                 <span ><button class='close'></button></span>
         </div>
     <div class='modal_projets--content'>
-        <span>
+        <span class='hover'>
             <img src="../assets/icons/logo-blindness.svg" alt="" srcset="">
             <p>Titre du Projet</p>
         </span>
