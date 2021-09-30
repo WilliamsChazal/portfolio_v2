@@ -24,7 +24,7 @@ btn__2.onclick = function() {
 }
 
 // Make the DIV element draggable:
-dragElement(document.getElementsByClassName("mydiv"));
+dragElement(document.getElementById("mydiv"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;

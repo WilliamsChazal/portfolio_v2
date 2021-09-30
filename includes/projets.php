@@ -1,7 +1,7 @@
 
 
-<section class='modal_projets'>
-        <div class='task_bar'>
+<section class='modal_projets' id='mydiv'>
+        <div class='task_bar' id='mydivheader'>
                 <span>Williams.Chazal ><strong>Porfolio</strong></span>
                 <span>afficher par :</span>
                 <span ><button class='close'></button></span>
