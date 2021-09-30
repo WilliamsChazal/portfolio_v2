@@ -40,3 +40,5 @@
         </span>
     </div>
 </section>
+
+<?php include('../parts/details.php')?>

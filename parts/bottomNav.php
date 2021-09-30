@@ -25,4 +25,4 @@
     
 </nav>
 </section>
-<?php include('../includes/projets.php')?>
+<?php include('../parts/projets.php')?>
