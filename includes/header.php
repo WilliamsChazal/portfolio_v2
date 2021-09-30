@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="../styles/libs/bottomNav.css">
         <link rel="stylesheet" href="../styles/dark-mode.css">
         <link rel="stylesheet" href="../styles/projets.css">
+        <link rel="stylesheet" href="../styles/libs/task_bar.css">
         <title>Williams Chazal</title>
     </head>
     <body>
