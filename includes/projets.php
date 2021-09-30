@@ -2,7 +2,7 @@
 
 <section class='modal_projets'>
         <div class='task_bar'>
-                <span><h3>Williams.Chazal</h3> ><strong>Porfolio</strong></span>
+                <span>Williams.Chazal ><strong>Porfolio</strong></span>
                 <span>afficher par :</span>
                 <span ><button class='close'></button></span>
         </div>

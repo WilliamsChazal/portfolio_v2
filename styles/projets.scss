@@ -5,30 +5,32 @@
 
 .modal_projets{
   /* display: ;  */
- 
   z-index: 1; 
   left: 0;
   top: 0;
   width: 50%; 
-  height: 50%; 
+  height: 50%;
+  padding-top: 100px; 
+  margin: auto;
   overflow: auto; 
-  border: black solid 1px;
-  border-radius: 15px 15px 0px 0px;
-  background: linear-gradient(179.94deg, #E2E0E0 0.05%, rgba(242, 239, 239, 0.9) 99.95%);
-  border: 1px solid #FFFFFF;
-  box-sizing: border-box;
-  backdrop-filter: blur(6px);
+ 
       .task_bar{
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
         height: 50px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.55) 100%);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.555) 50%, rgba(255, 255, 255, 0.55) 100%);
         /* border: 1px solid #181818; */
         box-sizing: border-box;
         box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
         border-radius: 15px 15px 0px 0px;
+             span {
+               margin-left: 20px;
+               margin-right: 20px;
+             }
+             
+          
       }
       .modal_projets--content{
         display: flex;
@@ -36,6 +38,11 @@
         padding: 20px 20px 20px 20px;
         flex-wrap: wrap;
         text-align: center;
+        border: black solid 1px;
+        background: linear-gradient(179.94deg, #E2E0E0 0.05%, rgba(242, 239, 239, 0.9) 99.95%);
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        backdrop-filter: blur(6px);
           span{
             width: 33%;
             padding: 20px 20px 20px 20px;
@@ -50,9 +57,18 @@
                 font-family: $font-1;
                 width: 70%;
                 background:white;
-                border-radius: 25px;  
+                border-radius: 25px; 
+
             }
           }
+          span:hover{
+            cursor: pointer;
+            -ms-transform: scale(1.2); /* IE 9 */
+            -webkit-transform: scale(1.2); /* Safari 3-8 */
+            transform: scale(1.2);
+            text-decoration: underline;
+        }
       }
+     
 
 }
