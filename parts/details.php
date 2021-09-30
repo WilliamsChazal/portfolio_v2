@@ -2,8 +2,12 @@
 <?php include('../includes/libs/task_bar.php')?>
     <div class='modal_details--content'>
         <div class='icons'>
-            <span><img src="../assets/icons/github.svg" alt="" srcset=""></span>
-            <span><img src="../assets/icons/logo-blindness.svg" alt="" srcset=""></span>
+            <span><img src="../assets/icons/github.svg" alt="" srcset="">
+                <p>github</p>  
+            </span>
+            <span><img src="../assets/icons/logo-blindness.svg" alt="" srcset="">
+                <p>Titre du projet</p>
+            </span>
         </div>
         <div class='details-projets'>
             <span><img src="../assets/img/capture-blindness.png" alt="" srcset=""></span>
