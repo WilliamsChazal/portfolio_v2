@@ -1,11 +1,43 @@
-<div class="list_projet">
 
-    <div class='modal-content' > 
-        <div>
-            <span><h3>Williams.Chazal ><strong>Porfolio</strong></span> </h3>
+
+<section class='modal_projets'>
+        <div class='task_bar'>
+            <span><h3>Williams.Chazal ><strong>Porfolio</strong></span>
             <span>afficher par :</span>
-            <span class='close'></span>
-    </div> 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod soluta ratione pariatur doloribus accusantium culpa necessitatibus quam eligendi voluptate, corrupti doloremque, incidunt, dolorum tenetur fuga neque. Suscipit eligendi sit reiciendis.</p></div>
-   
-</div>
+            <span ><button class='close'></button></span>
+        </div>
+    <div class='modal_projets--content'>
+        <span>
+            <img src="../assets/icons/logo-blindness.svg" alt="" srcset="">
+            <p>Titre du Projet</p>
+        </span>
+        <span>
+            <img src="../assets/icons/ico-bomb.svg" alt="" srcset="">
+            <p>Titre du Projet</p>
+        </span>
+        <span>
+            <img src="../assets/icons/ico-jeux.svg" alt="" srcset="">
+            <p>Titre du Projet</p>
+        </span>
+        <span>
+            <img src="../assets/icons/logo-owl-post.svg" alt="" srcset="">
+            <p>Titre du Projet</p>
+        </span>
+        <span>
+            <img src="../assets/icons/logo-owl-post.svg" alt="" srcset="">
+            <p>Titre du Projet</p>
+        </span>
+        <span>
+            <img src="../assets/icons/logo-owl-post.svg" alt="" srcset="">
+            <p>Titre du Projet</p>
+        </span>
+        <span>
+            <img src="../assets/icons/logo-owl-post.svg" alt="" srcset="">
+            <p>Titre du Projet</p>
+        </span>
+        <span>
+            <img src="../assets/icons/logo-owl-post.svg" alt="" srcset="">
+            <p>Titre du Projet</p>
+        </span>
+    </div>
+</section>

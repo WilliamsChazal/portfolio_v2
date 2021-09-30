@@ -1,46 +1,113 @@
-.list_projet {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  /* Hidden by default */
-  /* Stay in place */
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+@import url("http://fonts.cdnfonts.com/css/digital-7-mono");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+body html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("../assets/img/background.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: ease-in 0.6s;
+  transition: ease-in 0.6s;
+  overflow: hidden;
+}
+
+.close, .close :hover {
+  width: 29.05px;
+  height: 29px;
+  background: #FD0808;
+  -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.close :hover {
+  background: blue;
+  -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.modal_projets {
+  /* display: ;  */
   z-index: 1;
-  /* Sit on top */
   left: 0;
   top: 0;
   width: 50%;
-  /* Full width */
   height: 50%;
-  /* Full height */
   overflow: auto;
-  /* Enable scroll if needed */
+  border: black solid 1px;
+  border-radius: 15px 15px 0px 0px;
+  background: linear-gradient(179.94deg, #E2E0E0 0.05%, rgba(242, 239, 239, 0.9) 99.95%);
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
 }
 
-.modal-content {
+.modal_projets .task_bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #fefefe;
-  margin: 15% auto;
-  /* 15% from the top and centered */
-  /* padding: 20px; */
-  /* padding: 0px 20px 20px 20px; */
-  border: 1px solid #888;
-  width: 80%;
-  /* Could be more or less, depending on screen size */
-  border-radius: 15px 15px 0px 0px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.modal-content div {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   width: 100%;
-  margin-bottom: 20px;
-  border: red solid 1px;
+  height: 46px;
   display: inline-block;
-  z-index: 11;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.42)), to(rgba(255, 255, 255, 0.55)));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.55) 100%);
   border: 1px solid #181818;
@@ -51,18 +118,45 @@
   border-radius: 15px 15px 0px 0px;
 }
 
-.modal-content div span {
+.modal_projets .task_bar span {
+  width: 33%;
+}
+
+.modal_projets .modal_projets--content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding: 20px 20px 20px 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
 }
 
-.modal-content div h3 {
-  padding: 5px 10px 5px;
+.modal_projets .modal_projets--content span {
+  width: 33%;
+  padding: 20px 20px 20px 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.modal-content p {
-  padding: 0px 20px 20px 20px;
+.modal_projets .modal_projets--content span img {
+  width: 80px;
+  height: 80px;
+}
+
+.modal_projets .modal_projets--content span p {
+  margin: auto;
+  font-family: "Source Code Pro", sans-serif;
+  width: 70%;
+  background: white;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=projets.css.map */
