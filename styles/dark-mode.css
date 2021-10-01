@@ -80,6 +80,10 @@ body {
           box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.5);
 }
 
+.modal {
+  display: none;
+}
+
 .dark-mode {
   background-image: url("../assets/img/backgroundDark.png");
   height: 100%;
