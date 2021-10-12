@@ -2,11 +2,11 @@
 <?php include('../includes/libs/task_bar.php')?>
     <div class='modal_details--content'>
         <div class='icons'>
-            <span><img src="../assets/icons/github.svg" alt="" srcset="">
-                <p>github</p>  
-            </span>
             <span><img src="../assets/icons/logo-blindness.svg" alt="" srcset="">
                 <p>Titre du projet</p>
+            </span>
+            <span><img src="../assets/icons/github.svg" alt="" srcset="">
+                <p>Github</p>  
             </span>
         </div>
         <div class='details-projets'>

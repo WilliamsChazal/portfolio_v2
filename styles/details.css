@@ -32,11 +32,18 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.modal_details--content .icons img {
-  /*                     margin-top: 20px;
-                    margin-bottom: 20px; */
+.modal_details--content .icons span {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.modal_details--content .icons span img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -56,12 +63,16 @@
   height: 80px;
 }
 
-.modal_details--content .icons p {
+.modal_details--content .icons span p {
   padding: 5px 5px 5px 5px;
   text-align: center;
   background: -webkit-gradient(linear, left top, right top, color-stop(3.8%, #FFFFFF), color-stop(94.57%, rgba(255, 255, 255, 0.69)));
   background: linear-gradient(90deg, #FFFFFF 3.8%, rgba(255, 255, 255, 0.69) 94.57%);
+  -webkit-filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
   border-radius: 15px;
+  font-family: 'Source Code Pro';
+  font-weight: bold;
 }
 
 .modal_details--content .details-projets {
@@ -104,7 +115,7 @@
 .modal_details--content .details-projets span h3 {
   font-family: 'Source Code Pro';
   padding: 1rem 0 0 1rem;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 28px;
 }
 
