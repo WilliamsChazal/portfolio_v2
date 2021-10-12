@@ -12,8 +12,9 @@
         <div class='details-projets'>
             <span><img src="../assets/img/capture-blindness.png" alt="" srcset=""></span>
             <span>
-                <h3>blindness</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloremque minus dignissimos veniam eius atque, cupiditate repudiandae tempore delectus exercitationem, blanditiis quos accusamus aspernatur cumque consectetur vero dolor asperiores quam!</p>
+                <h3>Blindness</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloremque minus dignissimos veniam eius atque, cupiditate repudiandae tempore delectus exercitationem!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloremque minus dignissimos veniam eius atque, cupiditate repudiandae tempore delectus exercitationem!</p>
     </span>
         </div>
     </div>

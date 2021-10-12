@@ -1,4 +1,6 @@
+$font-1:'Source Code Pro', sans-serif ;
 .task_bar{
+  font-family: $font-1;
     display: flex;
     justify-content: space-between;
     align-items: center;

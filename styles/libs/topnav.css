@@ -47,7 +47,17 @@ td, th {
   padding: 0;
 }
 
-body html {
+@font-face {
+  font-family: "Alexana";
+  src: url("../assets/fonts/Alexana.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Minitel";
+  src: url("../assets/fonts/Minitel.ttf") format("ttf");
+}
+
+html {
   height: 100%;
   overflow: hidden;
 }
@@ -106,15 +116,16 @@ body {
 }
 
 .topnav h1 {
-  font-family: "Source Code Pro", sans-serif;
+  font-family: "Minitel";
   font-weight: 400;
-  font-size: 36px;
+  font-size: 24px;
 }
 
 .topnav h2 {
   font-family: "Source Code Pro", sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
+  padding: 3px 3px 3px 3px;
 }
 
 .topnav div {
@@ -133,6 +144,8 @@ body {
   height: 50px;
   padding: 5px 5px 5px 5px;
   margin-left: 50px;
+  -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
   cursor: pointer;
   -webkit-box-sizing: border-box;
@@ -142,8 +155,6 @@ body {
 .topnav div #logo:hover {
   padding: 5px 5px 5px 5px;
   margin-left: 50px;
-  -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
-          box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
   cursor: pointer;
   -webkit-box-sizing: border-box;
@@ -157,8 +168,7 @@ body {
 .topnav button, .topnav button:hover {
   font-family: "Source Code Pro", sans-serif;
   margin-left: 200px;
-  width: 256px;
-  height: 40px;
+  padding: 5px 5px 5px 5px;
   top: 20px;
   -webkit-box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
           box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
@@ -177,7 +187,7 @@ body {
 }
 
 .topnav button:hover h2 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .topnav div#digital-clock__time {

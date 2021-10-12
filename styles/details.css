@@ -65,7 +65,7 @@
 }
 
 .modal_details--content .details-projets {
-  width: 60%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,7 +82,7 @@
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 254, 254, 0.41)), to(rgba(254, 254, 254, 0)));
   background: linear-gradient(180deg, rgba(254, 254, 254, 0.41) 0%, rgba(254, 254, 254, 0) 100%);
   border-radius: 21px;
-  border: black 1px solid;
+  margin: 2rem 2rem 2rem 2rem;
 }
 
 .modal_details--content .details-projets span {
@@ -96,8 +96,20 @@
 }
 
 .modal_details--content .details-projets span img {
+  padding: 2rem 2rem 2rem 2rem;
   -webkit-filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 40px;
+}
+
+.modal_details--content .details-projets span h3 {
+  font-family: 'Source Code Pro';
+  padding: 1rem 0 0 1rem;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.modal_details--content .details-projets span p {
+  font-family: 'Source Code Pro';
+  padding: 1rem 1rem 0.5rem 1rem;
 }
 /*# sourceMappingURL=details.css.map */
