@@ -1,6 +1,3 @@
-/* *{
-    border: solid 1px red;
-} */
 .modal_details {
   left: 15%;
   top: 15%;
@@ -36,6 +33,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-left: 0.5rem;
 }
 
 .modal_details--content .icons span {
@@ -72,7 +70,15 @@
           filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
   border-radius: 15px;
   font-family: 'Source Code Pro';
-  font-weight: bold;
+}
+
+.modal_details--content .icons p:hover {
+  cursor: pointer;
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+  font-weight: Bold;
 }
 
 .modal_details--content .details-projets {

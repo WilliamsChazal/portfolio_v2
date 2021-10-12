@@ -6,7 +6,7 @@
                 <p>Titre du projet</p>
             </span>
             <span><img src="../assets/icons/github.svg" alt="" srcset="">
-                <p>Github</p>  
+                <p class='hover'>Github</p>  
             </span>
         </div>
         <div class='details-projets'>
