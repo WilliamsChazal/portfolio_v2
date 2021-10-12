@@ -29,6 +29,10 @@
             align-items: center;
             justify-content: space-around;
                 #logo{
+                    background-image: url(../../assets/img/logo.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
                     width: 50px;
                     height: 50px;
                     padding: 5px 5px 5px 5px;
@@ -41,7 +45,8 @@
                 #logo:hover{
                     padding: 5px 5px 5px 5px;
                     margin-left: 50px;
-                    
+                    background-image: url(../../assets/img/logo.png);
+
                     border-radius: 50px;
                     cursor: pointer;
                     box-sizing: border-box;

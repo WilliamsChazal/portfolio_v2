@@ -116,6 +116,10 @@ body {
 }
 
 .dark-mode .topnav #logo {
+  background-image: url(../assets/img/logo-dark.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 50px;
   height: 50px;
   margin-left: 50px;

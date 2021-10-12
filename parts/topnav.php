@@ -1,6 +1,6 @@
 <nav class="topnav">
     <div>
-        <span id='logo'><img src="../assets/img/logo.png" alt="" srcset=""></span>
+        <span id='logo'><!-- <img src="../assets/img/logo.png" alt="" srcset=""> --></span>
         <button calss ='close' id='btn'><h2>Williams Chazal</h2></button>
         
     </div>

@@ -18,6 +18,10 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                 color: $color-1;
                 border: $color-2;
                 #logo{
+                    background-image: url(../assets/img/logo-dark.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
                     width: 50px;
                     height: 50px;
                     margin-left: 50px;
