@@ -4,43 +4,45 @@ $linear-dark-1: linear-gradient(344.38deg, rgba(0, 0, 0, 0.6) 12.66%, rgba(0, 0,
 $linear-dark-2: linear-gradient(180deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0) 100%);
 $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5025) 100%);
 .dark-mode{
-       
-            background-image: url('../assets/img/backgroundDark.png');
-            height: 100%;
-            background-repeat: no-repeat;
-            background-size: cover;
-            transition: ease-in 0.6s;
-        
-        .topnav{
-            background: $linear-dark-1;
-            color: $color-1;
-            border: $color-2;
-            #logo{
-                width: 50px;
-                height: 50px;
-                margin-left: 50px;
-                box-shadow: inset 3px -2px 4px 2px rgba(160, 158, 158, 0.25);
-                border-radius: 50px;
-                cursor: pointer;
+    background-image: url('../assets/img/backgroundDark.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in 0.6s;
+        .task_bar{
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(41, 41, 41, 0.97) 100%);
+                color: white;
             }
-                button{
-                    color: $color-1;
-                    margin-left: 200px;
-                    padding: 5px 5px 5px 5px;
-                    left: 127px;
-                    top: 20px;
-                    box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
-                    border: 1px solid #3a3939;
-                    box-sizing: border-box;
-                    border-radius: 120px;
-                    background: none; 
-                    cursor: pointer;      
+        .topnav{
+                background: $linear-dark-1;
+                color: $color-1;
+                border: $color-2;
+                #logo{
+                    width: 50px;
+                    height: 50px;
+                    margin-left: 50px;
+                    box-shadow: inset 3px -2px 4px 2px rgba(160, 158, 158, 0.25);
+                    border-radius: 50px;
+                    cursor: pointer;
                 }
-                    button:hover {
-                        @extend button;
-                        box-shadow: inset 3px -4px 4px rgba(255, 255, 255, 0.25), inset -3px 4px 4px rgba(247, 247, 247, 0.25);
-                    }
-        }
+                        button{
+                            color: $color-1;
+                            margin-left: 200px;
+                            padding: 5px 5px 5px 5px;
+                            left: 127px;
+                            top: 20px;
+                            box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
+                            border: 1px solid #3a3939;
+                            box-sizing: border-box;
+                            border-radius: 120px;
+                            background: none; 
+                            cursor: pointer;      
+                        }
+                            button:hover {
+                                @extend button;
+                                box-shadow: inset 3px -4px 4px rgba(255, 255, 255, 0.25), inset -3px 4px 4px rgba(247, 247, 247, 0.25);
+                            }
+            }
     div #about-me{
         background:linear-gradient(180deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.893) 100%); 
         color: $color-1;
@@ -72,10 +74,7 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
        }
     } 
     .modal_projets{
-        .task_bar{
-            background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(41, 41, 41, 0.97) 100%);
-            color: white;
-        }
+ 
         .modal_projets--content{
             color: white;
             border: black solid 1px;
@@ -86,4 +85,62 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                 }
         }
     }
-}
+    .modal_details--content{
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.72) 100%);
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        backdrop-filter: blur(7px);
+        display: flex;
+            .icons {
+                    img{
+                        justify-content: center;
+                        border: 1px solid #000000;
+                        box-sizing: border-box;
+                        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.713548) 33.75%, rgba(0, 0, 0, 0.58) 49.48%, rgba(0, 0, 0, 0.69) 100%);
+                        box-shadow: 0px 4px 4px rgba(158, 158, 158, 0.25);
+
+                    }
+                            p{
+                                color: white;
+                                background: linear-gradient(90deg, #000000 3.8%, rgba(0, 0, 0, 0.69) 94.57%);
+                                filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+
+                            }
+                        }
+                    p:hover{
+    
+                            cursor: pointer;
+                            -ms-transform: scale(1.1); /* IE 9 */
+                            -webkit-transform: scale(1.1); /* Safari 3-8 */
+                            transform: scale(1.1);
+                            font-weight: Bold;
+                            box-shadow: 0px 4px 4px rgba(158, 158, 158, 0.25);
+    
+                    }
+                    
+            }
+            .details-projets{
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0.41) 0%, rgba(254, 254, 254, 0) 100%);
+                color: white;
+                    span{
+                        display: flex;
+                        flex-direction: column;
+                        
+                            img{
+                                padding: 2rem 2rem 2rem 2rem;
+                                filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+    
+                            }
+                            h3{
+                                font-family: 'Source Code Pro';
+                                padding: 1rem 0 0 1rem;
+                                font-weight: bold;
+                                font-size: 28px;
+                            }
+                            p{
+                                font-family: 'Source Code Pro';
+                                padding: 1rem 1rem 0.5rem 1rem;
+                            }
+                    }
+            }
+    }
