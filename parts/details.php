@@ -1,5 +1,5 @@
-<section class='modal_details'>
-<?php include('../includes/libs/task_bar.php')?>
+<section class='modal_details' id='mondiv'>
+<?php include('../includes/libs/task_bar-projet.php')?>
     <div class='modal_details--content'>
         <div class='icons'>
             <span><img src="../assets/icons/logo-blindness.svg" alt="" srcset="">

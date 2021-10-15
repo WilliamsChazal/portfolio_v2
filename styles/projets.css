@@ -97,17 +97,16 @@ body {
 /* *{
   border: solid red 1px;
 } */
-#mydiv {
+/* #mydiv{
   position: absolute;
   z-index: 11;
 }
-
 #mydivheader {
   padding: 10px;
   cursor: move;
   z-index: 10;
-}
 
+} */
 .modal_projets {
   display: none;
   left: 15%;

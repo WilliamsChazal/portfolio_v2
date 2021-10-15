@@ -24,4 +24,26 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+
+#mydiv {
+  position: absolute;
+  z-index: 11;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+}
+
+#mondiv {
+  position: absolute;
+  z-index: 11;
+}
+
+#mondivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+}
 /*# sourceMappingURL=task_bar.css.map */
