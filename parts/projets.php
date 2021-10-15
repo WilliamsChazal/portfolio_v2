@@ -6,7 +6,7 @@
 
        
     <div class='modal_projets--content'>
-        <span class='hover'>
+        <span class='hover' id='openDetails'>
             <img src="../assets/icons/logo-blindness.svg" alt="" srcset="">
             <p>Titre du Projet</p>
         </span>

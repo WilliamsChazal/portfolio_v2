@@ -1,7 +1,7 @@
 <section class="bottomNav">
 <nav >
-    <div class='hover'>
-        <img src="../assets/icons/dossier.svg" alt="" srcset="" id='openProjet'>
+    <div class='hover' id='openProjet'>
+        <img src="../assets/icons/dossier.svg" alt="" srcset="" >
         <p>Portfolio</p>
 
     </div>

@@ -5,7 +5,7 @@
             <span><img src="../assets/icons/logo-blindness.svg" alt="" srcset="">
                 <p>Titre du projet</p>
             </span>
-            <span><img src="../assets/icons/github.svg" alt="" srcset="">
+            <span ><img src="../assets/icons/github.svg" alt="" srcset="">
                 <p class='hover'>Github</p>  
             </span>
         </div>
