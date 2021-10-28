@@ -1,0 +1,38 @@
+@import '../styles/libs/resources.scss'; 
+
+.modal_skills{
+    border: red 1px solid;
+    left: 30%;
+     top: 25%;
+     width: 50%;
+     margin: auto;
+     z-index: 999;
+        p{
+            font-family: $font-1;
+            font-size: 1rem;
+        }
+        .modal_skills_content{
+            border: green 1px solid;
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            column-gap: 24px;
+        }
+        .modal_skills_content--child{
+            border: blue 1px solid;
+            display: flex;
+            flex-direction: column;
+                span {
+                    height: 36px;
+                }
+            
+        }
+        .modal_skills_content--child--1{
+            border: blue 1px solid;
+            display: flex;
+            flex-direction: column;
+                
+            
+        }
+
+}

@@ -1,4 +1,4 @@
-$font-1:'Source Code Pro', sans-serif ;
+@import '../libs/resources.scss';
 .task_bar{
   font-family: $font-1;
     display: flex;

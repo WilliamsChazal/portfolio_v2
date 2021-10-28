@@ -1,0 +1,54 @@
+.modal_skills {
+  border: red 1px solid;
+  left: 30%;
+  top: 25%;
+  width: 50%;
+  margin: auto;
+  z-index: 999;
+}
+
+.modal_skills p {
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 1rem;
+}
+
+.modal_skills .modal_skills_content {
+  border: green 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+}
+
+.modal_skills .modal_skills_content--child {
+  border: blue 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal_skills .modal_skills_content--child span {
+  height: 36px;
+}
+
+.modal_skills .modal_skills_content--child--1 {
+  border: blue 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=skills.css.map */
