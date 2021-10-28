@@ -27,7 +27,6 @@
         .modal_skills_content--child{
             display: flex;
             flex-direction: column;
-            width: 100%;
             border-right: 2px solid #F2ECEC;
                 span {
                     display: flex;
@@ -49,6 +48,7 @@
         }
         .modal_skills_content--child--1{
             display: flex;
+            display: none;
             flex-direction: column;
             margin-bottom: 1rem;
                 span{
@@ -74,4 +74,8 @@
             
         }
 
+}
+
+.slides{
+    display: none;
 }
