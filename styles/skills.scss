@@ -48,7 +48,6 @@
         }
         .modal_skills_content--child--1{
             display: flex;
-            display: none;
             flex-direction: column;
             margin-bottom: 1rem;
                 span{
@@ -76,6 +75,10 @@
 
 }
 
-.slides{
+/* .slides{
     display: none;
-}
+} */
+
+.cursor {
+    cursor: pointer;
+  }
