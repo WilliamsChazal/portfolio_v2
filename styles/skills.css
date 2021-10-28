@@ -87,6 +87,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 1rem;
   width: 60%;
 }
 
@@ -97,7 +98,7 @@
 }
 
 .modal_skills .modal_skills_content--child--1 span img {
-  width: 75px;
+  width: 80px;
   height: auto;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.79)), to(rgba(255, 251, 251, 0.46)));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.79) 0%, rgba(255, 251, 251, 0.46) 100%);
@@ -119,11 +120,23 @@
 }
 
 .slides span:nth-child(2) {
-  color: green;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+.slides span:nth-child(2) h2 {
+  font-size: 2rem;
+  font-family: "Open Sans Bold", sans-serif;
+}
+
+.slides span:nth-child(3) {
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
 }
 
 .cursor {

@@ -1,5 +1,5 @@
-<section class='modal_skills'>
-
+<section class='modal_skills' id='meindiv'>
+<?php include('../includes/libs/task_bar-skills.php') ?>
     <div class='modal_skills_content'>
         <div  class='modal_skills_content--child '>
             <span><h2>Que sais je faire</h2></span>
