@@ -8,8 +8,8 @@
             <span><p>Logiciels et technologie</p></span>
         </div>
         <div class='modal_skills_content--child--1'>
-            <span>logo</span>
-            <span><h3>Titre</h3></span>
+            <span><img src="../assets/icons/conception.svg" alt="" srcset=""></span>
+            <span><h2>Conception</h2></span>
             <span><p>Création d’identité graphique, logos, chartes graphiques, visuels et documents. Typographie, dessin vectoriel, retouche photo. Création de thèmes graphiques et d’interfaces web. Responsive design. Ergonomie. Développement front-end selon les standards W3C.</p></span>
         </div>
     </div>

@@ -73,6 +73,10 @@ body {
   overflow: hidden;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
 .close, .close :hover {
   width: 29.05px;
   height: 29px;
