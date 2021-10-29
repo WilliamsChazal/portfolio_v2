@@ -5,7 +5,7 @@
         <p>Portfolio</p>
 
     </div>
-    <div class='hover'>
+    <div class='hover' id='openSkills'>
         <img src="../assets/icons/coding.svg" alt="" srcset="">
         <p>Compétences</p>
     </div>

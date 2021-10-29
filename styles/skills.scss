@@ -1,11 +1,12 @@
 @import '../styles/libs/resources.scss'; 
 
 .modal_skills{
+    display: none;
     left: 30%;
      top: 25%;
      width: 50%;
      margin: auto;
-     z-index: 999;
+     z-index: 1003;
         p{
             font-family: $font-1;
         }
