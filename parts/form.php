@@ -1,5 +1,5 @@
 <section class='modal_contact'>
-
+<?php include('../includes/libs/task_bar-form.php') ?>
     <div class="contact_form--text">
         <h3>Une question? Un devis?</h3>
         <p> Laissez-moi votre message et je vous recontacterais pour trouver une solution adaptée à vos besoins.</p>
@@ -22,7 +22,7 @@
             <input type="text" id="sujet" name="user_sujet">
 
             <label for="msg">Message :</label>
-            <textarea id="msg" name="user_message">Rédiger votre message dans ce champ</textarea>
+            <textarea id="msg" name="user_message" placeholder="Rédiger votre message dans ce champ.."></textarea>
             <span  class='button'> <button type="submit">Envoyer le message</button></span>
            
         </div>

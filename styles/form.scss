@@ -11,11 +11,19 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, #FFFFFF 100%);
   border: 2px solid #FFFFFF;
   backdrop-filter: blur(22px);
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
   font-size: 1rem;
   font-family: $font-1;
+    h3{
+      font-weight: bold;
+      padding-bottom: 0.3rem;
+    }
 }
 
+.contact_form--text{
+  text-align: center;
+  padding-top: 0.5rem;
+}
 
 .contact_form{
     display: flex;
@@ -25,6 +33,7 @@
       input{
         width: 80%;
         padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+        
       }
       textarea{
         width: 80%;
@@ -32,6 +41,7 @@
       }
       label{
         padding: 0.3rem 0.3rem 0.3rem 0rem;
+        font-weight: bold;
       }
       .contact_form--child{
         display: flex;
@@ -51,12 +61,21 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-top: 1rem;
         width: 80%;
         button{
-          background: #000000;
+          background: white;
+          color: black !important;
           border-radius: 15px;
           align-items: center;
           width: 50%;
+          color: white;
+          padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+          cursor: pointer;
+            &:hover{
+             background: black;   
+             color:white!important;
+            }
         }
       }
   }
