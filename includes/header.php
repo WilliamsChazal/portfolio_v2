@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="../styles/skills.css">
         <link rel="stylesheet" href="../styles/form.css">
         <link rel="stylesheet" href="../styles/libs/task_bar.css">
+        <link rel="stylesheet" href="../styles/libs/icons.css">
         <title>Williams Chazal</title>
     </head>
     <body>

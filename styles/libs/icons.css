@@ -1,0 +1,63 @@
+.games {
+  left: 50px;
+  top: 245px;
+  position: absolute;
+  font-family: "Source Code Pro", sans-serif;
+}
+
+.games div {
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.games div span {
+  text-align: center;
+}
+
+.games div span img {
+  height: 76.43px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(33.75%, rgba(255, 255, 255, 0.713548)), color-stop(49.48%, rgba(255, 255, 255, 0.58)), to(rgba(255, 255, 255, 0.69)));
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.713548) 33.75%, rgba(255, 255, 255, 0.58) 49.48%, rgba(255, 255, 255, 0.69) 100%);
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+  border-radius: 15px;
+  /* margin:
+                0.3rem 0.3rem 0.3rem 0.3rem;  */
+}
+
+.games div p {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(0.01%, rgba(255, 255, 255, 0.24)), to(#FFFFFF));
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.24) 0.01%, #FFFFFF 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border-radius: 25px;
+  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+#openGame {
+  width: 100%;
+  height: 950px;
+}
+
+#iframeDisplay {
+  border: solid red 1px;
+  left: 30%;
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  z-index: 999;
+}
+/*# sourceMappingURL=icons.css.map */

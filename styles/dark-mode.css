@@ -290,4 +290,20 @@ h2 {
 .dark-mode .modal_contact label {
   color: white;
 }
+
+.dark-mode .games {
+  color: white;
+}
+
+.dark-mode .games img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.5025)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5025) 100%);
+  border: black 1px solid;
+  -webkit-filter: contrast(90%);
+          filter: contrast(90%);
+}
+
+.dark-mode .games p {
+  background: linear-gradient(344.38deg, rgba(0, 0, 0, 0.6) 12.66%, rgba(0, 0, 0, 0.74) 89.61%);
+}
 /*# sourceMappingURL=dark-mode.css.map */
