@@ -19,7 +19,7 @@
         <p>Contact</p>
     </div>
     <div id='projet' class='hover'>
-        <a href="">
+        <a href="https://esprit-sud01.fr/" target='_blank'>
         <img src="../assets/icons/logo_esprit_sud.png" alt="" srcset="">
         <p>Esprit Sud</p>
         </a>
