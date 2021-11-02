@@ -38,9 +38,11 @@
 #openGame{
     width: 100%;
     height: 950px;
+    z-index: 999;
 }
 
 #iframeDisplay{
+    position: fixed;
     left: 30%;
      width: 80%;
      height: 90%;

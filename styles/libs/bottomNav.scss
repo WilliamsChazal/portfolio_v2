@@ -5,7 +5,10 @@ section.bottomNav{
     justify-content: center;
 
 
+
         nav{
+            position: inherit;
+            z-index: 0;
             display: flex;
             width: 60%;
             height: auto;
