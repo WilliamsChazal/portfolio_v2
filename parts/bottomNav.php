@@ -19,8 +19,10 @@
         <p>Contact</p>
     </div>
     <div id='projet' class='hover'>
-        <img src="../assets/icons/logo-blindness.svg" alt="" srcset="">
-        <p>Titre du projet</p>
+        <a href="">
+        <img src="../assets/icons/logo_esprit_sud.png" alt="" srcset="">
+        <p>Esprit Sud</p>
+        </a>
     </div>
     
 </nav>

@@ -85,4 +85,8 @@ section.bottomNav nav #projet p {
   text-align: center;
   text-decoration: underline;
 }
+
+a {
+  text-decoration: none !important;
+}
 /*# sourceMappingURL=bottomNav.css.map */

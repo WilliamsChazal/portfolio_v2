@@ -84,7 +84,7 @@ let modal_5 = document.getElementsByClassName("modal_contact")[0];
 let btn_5 = document.getElementById("openForm");
 
 // Get the <span> element that closes the modal
-let btn__5 = document.getElementsByClassName("close")[1];
+let btn__5 = document.getElementsByClassName("close")[4];
 
 // When the user clicks on the button, open the modal
 btn_5.onclick = function() {
