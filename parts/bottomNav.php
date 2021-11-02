@@ -13,7 +13,7 @@
         <img src="../assets/icons/designer.png" alt="" srcset="">
         <p>Webdesign</p>
     </div>
-    <div id='line'></div>
+    <!-- <div id='line'></div> -->
     <div class='hover'>
         <img src="../assets/icons/un-message.svg" alt="" srcset="">
         <p>Contact</p>
@@ -26,3 +26,5 @@
 </nav>
 </section>
 <?php include('../parts/projets.php')?>
+<?php include('../parts/skills.php')?>
+<?php include('../parts/form.php')?>

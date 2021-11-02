@@ -1,0 +1,87 @@
+.modal_contact {
+  left: 30%;
+  top: 25%;
+  width: 50%;
+  margin: auto;
+  z-index: 999;
+  border: red 2px solid;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.95)), to(#FFFFFF));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, #FFFFFF 100%);
+  border: 2px solid #FFFFFF;
+  -webkit-backdrop-filter: blur(22px);
+          backdrop-filter: blur(22px);
+  border-radius: 0px 0px 10px 10px;
+  font-size: 1rem;
+  font-family: "Source Code Pro", sans-serif;
+}
+
+.contact_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 950px;
+  color: black;
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
+.contact_form input {
+  width: 80%;
+  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+.contact_form textarea {
+  width: 80%;
+  height: 90px;
+}
+
+.contact_form label {
+  padding: 0.3rem 0.3rem 0.3rem 0rem;
+}
+
+.contact_form .contact_form--child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.contact_form .contact_form--child--2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.contact_form .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+}
+
+.contact_form .button button {
+  background: #000000;
+  border-radius: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+/*# sourceMappingURL=form.css.map */

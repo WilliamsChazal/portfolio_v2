@@ -1,0 +1,62 @@
+@import '../styles/libs/resources.scss'; 
+
+
+.modal_contact{
+  left: 30%;
+  top: 25%;
+  width: 50%;
+  margin: auto;
+  z-index: 999;
+  border: red 2px solid;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, #FFFFFF 100%);
+  border: 2px solid #FFFFFF;
+  backdrop-filter: blur(22px);
+  border-radius: 0px 0px 10px 10px;
+  font-size: 1rem;
+  font-family: $font-1;
+}
+
+
+.contact_form{
+    display: flex;
+    width: 950px;
+    color:black;
+    column-gap: 2rem;
+      input{
+        width: 80%;
+        padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+      }
+      textarea{
+        width: 80%;
+          height: 90px;
+      }
+      label{
+        padding: 0.3rem 0.3rem 0.3rem 0rem;
+      }
+      .contact_form--child{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 1rem 1rem 1rem 1rem;
+         
+        
+      }
+      .contact_form--child--2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 1rem 1rem 1rem 1rem;
+      }
+      .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        button{
+          background: #000000;
+          border-radius: 15px;
+          align-items: center;
+          width: 50%;
+        }
+      }
+  }
