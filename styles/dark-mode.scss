@@ -1,5 +1,5 @@
 @import 'main.scss';
-
+@import '../styles/libs/resources.scss'; 
 $linear-dark-1: linear-gradient(344.38deg, rgba(0, 0, 0, 0.6) 12.66%, rgba(0, 0, 0, 0.74) 89.61%);
 $linear-dark-2: linear-gradient(180deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0) 100%);
 $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5025) 100%);
@@ -123,7 +123,7 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                     }
                     
             }
-            .details-projets{
+    .details-projets{
                 background: linear-gradient(180deg, rgba(0, 0, 0, 0.41) 0%, rgba(254, 254, 254, 0) 100%);
                 color: white;
                     span{
@@ -147,4 +147,13 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                             } */
                     }
             }
+    .modal_contact{
+        color: white;
+        background: linear-gradient(180deg, rgba(5, 5, 5, 0.747) 0%, #303030 100%);
+
+            label{
+                color: white;
+            }
+            
+    }
     }

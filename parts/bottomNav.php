@@ -13,8 +13,8 @@
         <img src="../assets/icons/designer.png" alt="" srcset="">
         <p>Webdesign</p>
     </div>
-    <!-- <div id='line'></div> -->
-    <div class='hover'>
+
+    <div class='hover' id='openForm'>
         <img src="../assets/icons/un-message.svg" alt="" srcset="">
         <p>Contact</p>
     </div>

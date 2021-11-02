@@ -1,4 +1,4 @@
-<section class='modal_contact'>
+<section class='modal_contact' id='midiv'>
 <?php include('../includes/libs/task_bar-form.php') ?>
     <div class="contact_form--text">
         <h3>Une question? Un devis?</h3>

@@ -47,5 +47,13 @@
     padding: 10px;
     cursor: move;
     z-index: 10;
-  
+  }
+
+  #midiv{
+    position: absolute;
+    z-index: 11;
+  }
+  #midiv {
+    cursor: move;
+    z-index: 10;
   }

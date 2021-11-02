@@ -60,6 +60,7 @@ td, th {
 html {
   height: 100%;
   overflow: hidden;
+  font-size: 16px;
 }
 
 body {
@@ -70,6 +71,10 @@ body {
   -webkit-transition: ease-in 0.6s;
   transition: ease-in 0.6s;
   overflow: hidden;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 .close, .close :hover {
@@ -257,6 +262,17 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  /* 
+                            h3{
+                                font-family: 'Source Code Pro';
+                                padding: 1rem 0 0 1rem;
+                                font-weight: bold;
+                                font-size: 28px;
+                            }
+                            p{
+                                font-family: 'Source Code Pro';
+                                padding: 1rem 1rem 0.5rem 1rem;
+                            } */
 }
 
 .dark-mode .details-projets span img {
@@ -265,15 +281,13 @@ body {
           filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
 }
 
-.dark-mode .details-projets span h3 {
-  font-family: 'Source Code Pro';
-  padding: 1rem 0 0 1rem;
-  font-weight: bold;
-  font-size: 28px;
+.dark-mode .modal_contact {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 5, 5, 0.747)), to(#303030));
+  background: linear-gradient(180deg, rgba(5, 5, 5, 0.747) 0%, #303030 100%);
 }
 
-.dark-mode .details-projets span p {
-  font-family: 'Source Code Pro';
-  padding: 1rem 1rem 0.5rem 1rem;
+.dark-mode .modal_contact label {
+  color: white;
 }
 /*# sourceMappingURL=dark-mode.css.map */

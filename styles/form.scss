@@ -2,21 +2,23 @@
 
 
 .modal_contact{
-  left: 30%;
-  top: 25%;
+ /*  display: none; */
+  left: 50%;
+  top: 50%;
   width: 50%;
   margin: auto;
   z-index: 999;
-  border: red 2px solid;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, #FFFFFF 100%);
-  border: 2px solid #FFFFFF;
   backdrop-filter: blur(22px);
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 15px 15px 10px 10px;
   font-size: 1rem;
   font-family: $font-1;
     h3{
       font-weight: bold;
       padding-bottom: 0.3rem;
+    }
+    p{
+      padding:0.3rem 0.3rem 0.3rem;
     }
 }
 
