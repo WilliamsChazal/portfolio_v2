@@ -37,6 +37,20 @@ btn__2.onclick = function() {
   modal_2.style.display = "none";
 }
 
+//fetch en JS// 
+
+
+/* async function getText(file) {
+  let myObject = await fetch(file);
+  console.log(myObject)
+  let myText = await myObject.text();
+  document.getElementById("demo").innerHTML = myText;
+  console.log(myText);
+} */
+
+
+
+
 // Get the modal d'un projet
 let modal_3 = document.getElementsByClassName("modal_details")[0];
 
