@@ -25,14 +25,16 @@ if($_SESSION['username']){
     </div>
     <div>Bonjour <?php echo $_SESSION['username'];?> </div>
 <div class="admin_projet">
-    <a href="add_projet.php"><button>Ajouter un projet</button></a><a href="projet.php"><button>Voir les projets</button></a><br>
+    <a href="projet.php"><button>Voir les projets</button></a><br>
     <a href="add_projet.php"><button>Ajouter une compétence</button></a><br>
     <a href="add_projet.php"><button>Ajouter un Design</button></a><br>
-
+    <br>
+    <br>
+    <a href="register.php"><button>Créer un compte</button></a><br>
 
 </div>
 <br>
-<a href="admin.php"><button>Retour</button></a><br>
+<button> <a href="end-session.php">Déconnexion</button></a>
    
 </body>
 </html>

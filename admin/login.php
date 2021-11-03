@@ -28,6 +28,9 @@
                         <div class="d-grid gap-2">
                             <button type="submit" class="btn btn-outline-primary">Se Connecter</button>
                         </div>
+                        <div class="d-grid gap-2">
+                          
+                        </div>
                     </form>
                     <?php 
                             if(!empty($_SESSION['success'])){
@@ -35,7 +38,7 @@
                             }    $_SESSION['success']='';                    
                          ?>
                    <!--  <div class="d-flex justify-content-end mt-3"><a href="form_user-register.php">S'inscrire</a></div> -->
-    
+                   <a href="../index.php"><button type="submit" class="btn btn-outline-primary">Retour</button></a>  
 </div>
     
     

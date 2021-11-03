@@ -42,7 +42,7 @@
                                 echo '<div class="alert alert-danger" role="alert">'. $_SESSION['error'].'</div>';
                             }    $_SESSION['error']='';                    
                          ?>
-                    <div class="d-flex justify-content-end mt-3"><a href="index.php">Retour</a></div>
+                    <div class="d-flex justify-content-end mt-3"><a href="home.php">Retour</a></div>
     
 </div>
     

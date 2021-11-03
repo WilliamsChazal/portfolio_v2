@@ -27,12 +27,14 @@ if($_SESSION['username']){
 <?php
     foreach ($result as $projet) {
 ?>
- <a href="projects-details.php?id=<?=$projet['idprojets']?>"><?=$projet['projet_titre']?></a>
+ 
+ <img src="assets_admin/admin_logo/<?= $projet['projet_logo'] ?>"><br>
+ <a href="projet_detail.php?id=<?=$projet['idprojet']?>"><?=$projet['projet_titre']?></a><br>
 <?php
     }
 ?>
-
-<a href="home.php"><button>Retour</button></a>
+<a href="add_projet.php"><button>Ajouter un projet</button></a>
+<br><a href="home.php"><button>Retour</button></a>
 
 </body>
 </html>
