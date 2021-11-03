@@ -19,16 +19,12 @@
 
        
     <div class='modal_projets--content'>
-   <?php
-                foreach ($result as $projet) {
-            ?>
+
         <span class='hover' id='openDetails'>
         <img src="assets/images/admin_logo/<?=$result['projet_logo']?>" alt="" alt="" srcset="">
             <p><?=$projet['projet_titre']?></p>
         </span>
-        <?php
-                    }
-                ?>
+      
         <span>
             <img src="../assets/icons/ico-bomb.svg" alt="" srcset="">
             <p>Titre du Projet</p>
