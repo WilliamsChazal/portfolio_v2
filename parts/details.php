@@ -14,10 +14,9 @@
 ?>
 
 
-
 <section class='modal_details' id='mondiv'>
 <?php include('../includes/libs/task_bar-projet.php')?>
-    <div class='modal_details--content'>
+    <div class='modal_details--content' id="demo">
         <div class='icons'>
             <span><img src="assets/images/admin_logo/<?=$result['projet_logo']?>" alt="" srcset="">
                 <a href="<?=$result['projet_link']?>" target="_blank"><p><?=$result['projet_titre']?></p></a>
