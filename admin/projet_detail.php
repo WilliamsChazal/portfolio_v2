@@ -38,6 +38,7 @@ if($_SESSION['username']){
 <?=$result['projet_date_debut']?> <br>
 <?=$result['projet_date_fin']?> <br>
 <?=$result['projet_specs']?> <br>
+<?=$result['projet_type']?> <br>
 <?=$result['projet_github']?> <br>
 <?=$result['projet_link']?> <br>
 
