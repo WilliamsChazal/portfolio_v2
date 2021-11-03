@@ -6,7 +6,7 @@
 
     <section class='modal_game' id='openGame'>
         
-    <div id="iframeDisplay">
+    <div id="iframeDisplay" style='display:none'>
 
     </div> 
     </section>

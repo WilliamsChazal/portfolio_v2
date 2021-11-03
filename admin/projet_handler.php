@@ -6,11 +6,11 @@ if($_SESSION['username']){
     if($_POST){
 
         if(isset($_POST['projet_titre'])&&!empty($_POST['projet_titre'])&&
-        isset($_POST['projet_debut'])&&!empty($_POST['projet_date_debut'])&&
-        isset($_POST['projet_fin'])&&!empty($_POST['projet_date_fin'])&&
-        isset($_POST['projet_context'])&&!empty($_POST['projet_contexte'])&&
+        isset($_POST['projet_debut'])&&!empty($_POST['projet_debut'])&&
+        isset($_POST['projet_fin'])&&!empty($_POST['projet_fin'])&&
+        isset($_POST['projet_context'])&&!empty($_POST['projet_context'])&&
         isset($_POST['projet_specs'])&&!empty($_POST['projet_specs'])&&
-        isset($_POST['projet_githublink'])&&!empty($_POST['projet_github'])&&
+        isset($_POST['projet_githublink'])&&!empty($_POST['projet_githublink'])&&
         isset($_POST['projet_link'])&&!empty($_POST['projet_link'])&&
         isset($_POST['projet_type'])&&!empty($_POST['projet_type'])&&
         isset($_FILES['projet_image']) && !empty($_FILES['projet_image'])&&
@@ -43,7 +43,7 @@ if($_SESSION['username']){
                 }     
             }  else {     
         
-                $target_dir = "../assets_admin/admin_img/";
+                $target_dir = "./assets_admin/admin_img/";
                 $target_file = $target_dir . basename($_FILES["projet_image"]["name"]);
                 $uploadOk = 1;
                 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
@@ -108,7 +108,7 @@ if($_SESSION['username']){
                             }     
                         }  else {     
                     
-                            $target_dir = "../assets_admin/admin_logo/";
+                            $target_dir = "./assets_admin/admin_logo/";
                             $target_file = $target_dir . basename($_FILES["projet_logo"]["name"]);
                             $uploadOk = 1;
                             $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
@@ -154,12 +154,12 @@ if($_SESSION['username']){
                                     $logo = basename( $_FILES["projet_logo"]["name"]) ;
 
                         
-                        $sql ="INSERT INTO projet (projet_titre,projet_date_debut,projet_date_fin,projet_context,projet_specs, projet_github,projet_link,projet_type, projet_image, projet_logo) VALUES(:projet_titre,:projet_date_debut,:projet_date_fin,:projet_context,:projet_specs,:rojet_githublink,:projet_link,:projet_type,:projet_image,:projet_logo)";
+                        $sql ="INSERT INTO projets (projet_titre,projet_date_debut,projet_date_fin,projet_contexte,projet_specs, projet_github,projet_link,projet_type, projet_image, projet_logo) VALUES(:projet_titre,:projet_date_debut,:projet_date_fin,:projet_contexte,:projet_specs,:projet_github,:projet_link,:projet_type,:projet_image,:projet_logo)";
                         $query = $db ->prepare($sql);
                         $query->bindValue(':projet_titre', $titre, PDO::PARAM_STR);
-                        $query->bindValue(':projet_debut', $begin, PDO::PARAM_STR);
+                        $query->bindValue(':projet_date_debut', $begin, PDO::PARAM_STR);
                         $query->bindValue(':projet_date_fin', $end, PDO::PARAM_STR);
-                        $query->bindValue(':projet_context', $context, PDO::PARAM_STR);
+                        $query->bindValue(':projet_contexte', $context, PDO::PARAM_STR);
                         $query->bindValue(':projet_specs', $specs, PDO::PARAM_STR);
                         $query->bindValue(':projet_github', $githublink, PDO::PARAM_STR);
                         $query->bindValue(':projet_link', $projetlink, PDO::PARAM_STR);
@@ -171,7 +171,7 @@ if($_SESSION['username']){
                         echo 'Les données ont été enregistré dans le base de données !'; 
                         echo'<br><a href=home.php> Retour </a>';
                     } else {
-                        echo 'Remplissez tous les champs';echo '<br><a href=add-form.php> Retour </a>';
+                        echo 'Remplissez tous les champs';echo '<br><a href=projet.php> Retour </a>';
                     } 
                 }
             }
@@ -179,6 +179,7 @@ if($_SESSION['username']){
 
         } else {
             echo 'Il manque une information !';
+           
         }
                 
             

@@ -10,6 +10,9 @@ if($_SESSION['username']){
     /* var_dump($result); */
 
 }
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,19 +23,16 @@ if($_SESSION['username']){
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <?php echo $_SESSION['success'];?>
-    </div>
-    <div>Bonjour <?php echo $_SESSION['username'];?> </div>
-<div class="admin_projet">
-    <a href="add_projet.php"><button>Ajouter un projet</button></a><a href="projet.php"><button>Voir les projets</button></a><br>
-    <a href="add_projet.php"><button>Ajouter une compétence</button></a><br>
-    <a href="add_projet.php"><button>Ajouter un Design</button></a><br>
 
+<?php
+    foreach ($result as $projet) {
+?>
+ <a href="projects-details.php?id=<?=$projet['idprojets']?>"><?=$projet['projet_titre']?></a>
+<?php
+    }
+?>
 
-</div>
-<br>
-<a href="admin.php"><button>Retour</button></a><br>
-   
+<a href="home.php"><button>Retour</button></a>
+
 </body>
 </html>
