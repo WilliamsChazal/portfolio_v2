@@ -1,4 +1,4 @@
-// Get the modal
+/* // Get the modal
 let modal_2 = document.getElementsByClassName("modal_projets")[0];
 
 // Get the button that opens the modal
@@ -15,7 +15,7 @@ btn_2.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 btn__2.onclick = function() {
   modal_2.style.display = "none";
-}
+} */
 
 
 function closeModal(uuidv4){

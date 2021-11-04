@@ -1,5 +1,5 @@
 
-// Get the modal du formulaire de contact
+/* // Get the modal du formulaire de contact
 let modal_5 = document.getElementsByClassName("modal_contact")[0];
 
 // Get the button that opens the modal
@@ -16,4 +16,4 @@ btn_5.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 btn__5.onclick = function() {
   modal_5.style.display = "none";
-}
+} */

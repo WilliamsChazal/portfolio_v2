@@ -1,6 +1,6 @@
 <section class="bottomNav">
 <nav >
-    <div class='hover' id='openProjet'>
+    <div class='hover' onclick='openModal("projets.php", "modal_projets" ,"Portfolio", 10)' >
         <img src="../assets/icons/dossier.svg" alt="" srcset="" >
         <p>Portfolio</p>
 
@@ -27,6 +27,6 @@
     
 </nav>
 </section>
-<?php include('../parts/projets.php')?>
+
 <?php include('../parts/skills.php')?>
 <?php include('../parts/form.php')?>

@@ -14,15 +14,9 @@
     } */
 ?>
 
-<section class='modal_projets' id='mydiv'>
-
-  <?php 
-  include('../includes/libs/task_bar-generic.php');
-  generateTaskBar('coucou');
-  ?>
 
        
-    <div class='modal_projets--content'>
+  
     <?php
                 foreach ($result as $projet) {
             ?>
@@ -33,7 +27,6 @@
       <?php
                 }
       ?>
-    </div>
-</section>
 
-<?php include('../parts/details.php')?>
+
+
