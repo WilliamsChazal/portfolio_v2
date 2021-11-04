@@ -5,7 +5,7 @@
         <p>Portfolio</p>
 
     </div>
-    <div class='hover' id='openSkills'>
+    <div class='hover'  onclick='openModal("skills.php", "modal_skills" ,"Compétences", 10)'>
         <img src="../assets/icons/coding.svg" alt="" srcset="">
         <p>Compétences</p>
     </div>

@@ -29,6 +29,10 @@ async function openProjectDetails(id, title){
   openModal('details.php?id='+id,'modal_details', title, 100)
   
 }
+async function openSkills(id, title){
+  openModal('skills.php?id='+id,'modal_skills', title, 100)
+  
+}
 
 async function openModal(url, eClass,title, zIndex){
   const content =await getText(url)

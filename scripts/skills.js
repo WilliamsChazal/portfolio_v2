@@ -29,7 +29,7 @@ function showSlides(n) {
   /* captionText.innerHTML = dots[slideIndex-1].alt; */
 }
 
-// Get the modal des compétences
+/* // Get the modal des compétences
 let modal_4 = document.getElementsByClassName("modal_skills")[0];
 
 // Get the button that opens the modal
@@ -46,4 +46,4 @@ btn_4.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 btn__4.onclick = function() {
   modal_4.style.display = "none";
-}
+} */
