@@ -23,7 +23,7 @@
             <label for="msg">Message :</label>
             <textarea id="msg" name="user_message" placeholder="Rédiger votre message dans ce champ.."></textarea>
             <span  class='button'> <button type="submit">Envoyer le message</button></span>
-           
+            <iframe name="empty" id="empty" style="display: none;"></iframe>
         </div>
       
     </form>

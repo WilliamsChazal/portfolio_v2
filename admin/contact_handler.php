@@ -15,7 +15,7 @@ if(isset($_POST['user_mail'])&& !empty($_POST['user_mail'])){
       "Content-Type: text/html;charset=utf-8"
       );
     mail($recipient, $objet, $send, implode("\r\n", $headerFields));
-   
+    echo "<script type='text/javascript'>alert('Message ENvoyé');</script>";
 }
 
 
