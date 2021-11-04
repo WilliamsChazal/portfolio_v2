@@ -26,7 +26,7 @@
     <?php
                 foreach ($result as $projet) {
             ?>
-        <span class='hover' id='openDetails' onclick='openProjectDetails(<?=$projet["idprojet"]?>)'>
+        <span class='hover' id='openDetails' onclick='openProjectDetails(<?=$projet["idprojet"]?>,"<?= htmlspecialchars($projet["projet_titre"],ENT_QUOTES)?>")'>
         <img src="../admin/assets_admin/admin_logo/<?=$projet['projet_logo']?>" alt="" alt="" srcset="">
             <p><?=$projet['projet_titre']?></p>
         </span>

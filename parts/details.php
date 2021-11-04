@@ -16,7 +16,7 @@
 
 
         <div class='icons'>
-            <span><img src="../admin/assets_admin/images/admin_logo/<?=$result['projet_logo']?>" alt="" srcset="">
+            <span><img src="../admin/assets_admin/admin_logo/<?=$result['projet_logo']?>" alt="" srcset="">
                 <a href="<?=$result['projet_link']?>" target="_blank"><p><?=$result['projet_titre']?></p></a>
             </span>
             <span ><img src="../assets/icons/github.svg" alt="" srcset="">
