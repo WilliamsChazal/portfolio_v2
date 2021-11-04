@@ -14,7 +14,7 @@
         <p>Webdesign</p>
     </div>
 
-    <div class='hover' id='openForm'>
+    <div class='hover' onclick='openModal("form.php", "modal_contact" ,"Contactez moi", 10)'>
         <img src="../assets/icons/un-message.svg" alt="" srcset="">
         <p>Contact</p>
     </div>

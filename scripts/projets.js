@@ -33,6 +33,10 @@ async function openSkills(id, title){
   openModal('skills.php?id='+id,'modal_skills', title, 100)
   
 }
+async function openForm(id, title){
+  openModal('form.php?id='+id,'modal_contact', title, 100)
+  
+}
 
 async function openModal(url, eClass,title, zIndex){
   const content =await getText(url)

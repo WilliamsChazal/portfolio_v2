@@ -2,10 +2,8 @@
 
 
 .modal_contact{
-  display: none;
   left: 25%;
   top: 15%;
-  width: 50%;
   margin: auto;
   z-index: 999;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, #FFFFFF 100%);
@@ -29,7 +27,7 @@
 
 .contact_form{
     display: flex;
-    width: 950px;
+    width:100%;
     color:black;
     column-gap: 2rem;
       input{

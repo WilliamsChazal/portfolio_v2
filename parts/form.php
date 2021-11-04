@@ -1,17 +1,16 @@
-<section class='modal_contact' id='midiv'>
-<?php include('../includes/libs/task_bar-form.php') ?>
+
     <div class="contact_form--text">
         <h3>Une question? Un devis?</h3>
         <p> Laissez-moi votre message et je vous recontacterais pour trouver une solution adaptée à vos besoins.</p>
     </div>
-    <form action="" class="contact_form">
+    <form action="../admin/contact_handler.php" class="contact_form" method="post" target='empty'> 
 
         <div class="contact_form--child">
             <label for="sujet" class='sujet'>Nom :</label>
-            <input type="text" id="sujet" name="user_sujet">
+            <input type="text" id="sujet" name="user_firstname">
       
             <label for="sujet" class='sujet'>Prénom :</label>
-            <input type="text" id="sujet" name="user_sujet">
+            <input type="text" id="sujet" name="user_name">
       
             <label for="mail">Votre mail :</label>
             <input type="email" id="mail" name="user_mail" >
@@ -28,9 +27,5 @@
         </div>
       
     </form>
-
-    
+ 
 </div>
-
-
-</section>
