@@ -17,6 +17,10 @@ btn__2.onclick = function() {
   modal_2.style.display = "none";
 }
 
+function openProjectDetails(id){
+  getText('details.php?id='+id)
+}
+
 //fetch en JS// 
 
 

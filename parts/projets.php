@@ -1,16 +1,17 @@
 <?php
-    if(isset($_GET['id']) &&!empty($_GET['id'])) {
+    /* if(isset($_GET['id']) &&!empty($_GET['id'])) { */
         require_once('../admin/db-connect.php');
-        $id = strip_tags($_GET['id']);
-        $sql ='SELECT*FROM `projets` WHERE `idprojet`=:id';
+        /* $id = strip_tags($_GET['id']); */
+        /* $sql ='SELECT*FROM `projets` WHERE `idprojet`=:id'; */
+        $sql ='SELECT*FROM `projets`';
         $query = $db->prepare($sql);
-        $query->bindValue(':id', $id, PDO::PARAM_STR);
+      /*   $query->bindValue(':id', $id, PDO::PARAM_STR); */
         $query ->execute();
-        $result = $query->fetch();
+        $result = $query->fetchAll();
         /* var_dump($result); */
-    }else{
+    /* }else{
         echo'id manquante';
-    }
+    } */
 ?>
 
 <section class='modal_projets' id='mydiv'>
@@ -19,40 +20,16 @@
 
        
     <div class='modal_projets--content'>
-
-        <span class='hover' id='openDetails'>
-        <img src="assets/images/admin_logo/<?=$result['projet_logo']?>" alt="" alt="" srcset="">
+    <?php
+                foreach ($result as $projet) {
+            ?>
+        <span class='hover' id='openDetails' onclick='openProjectDetails(<?=$projet["idprojet"]?>)'>
+        <img src="../admin/assets_admin/admin_logo/<?=$projet['projet_logo']?>" alt="" alt="" srcset="">
             <p><?=$projet['projet_titre']?></p>
         </span>
-      
-        <span>
-            <img src="../assets/icons/ico-bomb.svg" alt="" srcset="">
-            <p>Titre du Projet</p>
-        </span>
-        <span>
-            <img src="../assets/icons/ico-jeux.svg" alt="" srcset="">
-            <p>Titre du Projet</p>
-        </span>
-        <span>
-            <img src="../assets/icons/logo-owl-post.svg" alt="" srcset="">
-            <p>Titre du Projet</p>
-        </span>
-        <span>
-            <img src="../assets/icons/logo-owl-post.svg" alt="" srcset="">
-            <p>Titre du Projet</p>
-        </span>
-        <span>
-            <img src="../assets/icons/logo-owl-post.svg" alt="" srcset="">
-            <p>Titre du Projet</p>
-        </span>
-        <span>
-            <img src="../assets/icons/logo-owl-post.svg" alt="" srcset="">
-            <p>Titre du Projet</p>
-        </span>
-        <span>
-            <img src="../assets/icons/logo-owl-post.svg" alt="" srcset="">
-            <p>Titre du Projet</p>
-        </span>
+      <?php
+                }
+      ?>
     </div>
 </section>
 
