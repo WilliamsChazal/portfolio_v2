@@ -17,7 +17,13 @@
          
       
   }
-
+.modal_generic{
+  position: absolute;
+  z-index: 11;
+    .task_bar{
+      cursor: move;
+    }
+}
   #mydiv{
     position: absolute;
     z-index: 11;

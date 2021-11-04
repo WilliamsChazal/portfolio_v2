@@ -16,7 +16,10 @@
 
 <section class='modal_projets' id='mydiv'>
 
-  <?php include('../includes/libs/task_bar.php')?>
+  <?php 
+  include('../includes/libs/task_bar-generic.php');
+  generateTaskBar('coucou');
+  ?>
 
        
     <div class='modal_projets--content'>

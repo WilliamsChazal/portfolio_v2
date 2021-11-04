@@ -1,11 +1,12 @@
 .modal_details{
-    display: none;
+
     left: 30%;
      top: 25%;
-     width: 50%;
+     width: 80%;
      margin: auto;
      z-index: 999;
 }
+
 
 .modal_details--content{
     background: linear-gradient(180deg, #E3E1E1 0%, #D5D0D0 100%);

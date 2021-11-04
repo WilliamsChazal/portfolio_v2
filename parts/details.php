@@ -14,12 +14,9 @@
 ?>
 
 
-<section class='modal_details' id='mondiv'>
-<?php include('../includes/libs/task_bar-projet.php')?>
 
-    <div class='modal_details--content' id="demo">
         <div class='icons'>
-            <span><img src="assets/images/admin_logo/<?=$result['projet_logo']?>" alt="" srcset="">
+            <span><img src="../admin/assets_admin/images/admin_logo/<?=$result['projet_logo']?>" alt="" srcset="">
                 <a href="<?=$result['projet_link']?>" target="_blank"><p><?=$result['projet_titre']?></p></a>
             </span>
             <span ><img src="../assets/icons/github.svg" alt="" srcset="">
@@ -27,12 +24,10 @@
             </span>
         </div>
         <div class='details-projets'>
-            <span><img src="assets/images/admin_img/<?=$result['projet_image']?>" alt="" alt="" srcset=""></span>
+            <span><img src="../admin/assets_admin/admin_img/<?=$result['projet_image']?>" alt="" alt="" srcset=""></span>
             <span>
                 <h3><?=$result['projet_titre']?></h3>
                 <p><?=$result['projet_contexte']?></p>
                 <p><?=$result['projet_specs']?></p>
     </span>
-        </div>
-    </div>
-</section>
+ 

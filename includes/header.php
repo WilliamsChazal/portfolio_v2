@@ -17,8 +17,10 @@
         <link rel="stylesheet" href="../styles/form.css">
         <link rel="stylesheet" href="../styles/libs/task_bar.css">
         <link rel="stylesheet" href="../styles/libs/icons.css">
+        <script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>
         <title>Williams Chazal</title>
     </head>
     <body>
         
- 
+    <div id="modals"></div>
+

@@ -17,8 +17,31 @@ btn__2.onclick = function() {
   modal_2.style.display = "none";
 }
 
-function openProjectDetails(id){
-  getText('details.php?id='+id)
+
+function closeModal(uuidv4){
+
+  const modal = document.getElementById(uuidv4)
+  document.getElementById('modals').removeChild(modal)
+}
+
+
+async function openProjectDetails(id){
+  const content =await getText('details.php?id='+id)
+  const modal =document.createElement('div')
+  const uuid = uuidv4()
+  modal.setAttribute('id',uuid)
+  modal.setAttribute('class','modal_details modal_generic')
+  modal.innerHTML=`<section class='modal_details'>
+
+  <div class='task_bar'>
+              <span>Williams.Chazal > <strong>Coucou</strong></span>
+              <span ><button class='close' onclick="closeModal('${uuid}')"></button></span>
+  </div> 
+  <div class='modal_details--content'>${content}</div>
+
+</section>`
+  document.getElementById('modals').appendChild(modal)
+  dragElementGeneric(modal)
 }
 
 //fetch en JS// 
@@ -27,9 +50,9 @@ function openProjectDetails(id){
  async function getText(file) {
   let myObject = await fetch(file);
   console.log(myObject)
-  let myText = await myObject.text();
-  document.getElementById("demo").innerHTML = myText;
+  let myText = await myObject.text(); 
   console.log(myText);
+  return myText;
 } 
 
 
