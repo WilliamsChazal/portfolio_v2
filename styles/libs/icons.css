@@ -55,10 +55,12 @@
 
 #iframeDisplay {
   position: fixed;
-  left: 30%;
+  left: 10%;
+  top: 0.5%;
   width: 80%;
   height: 90%;
   margin: auto;
   z-index: 999;
+  border: solid 2px chartreuse;
 }
 /*# sourceMappingURL=icons.css.map */
