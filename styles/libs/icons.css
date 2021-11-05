@@ -45,6 +45,13 @@
           backdrop-filter: blur(8px);
   border-radius: 25px;
   padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+  cursor: pointer;
+}
+
+.games div p:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  font-weight: bolder;
 }
 
 #openGame {
@@ -56,12 +63,12 @@
 #iframeDisplay {
   position: fixed;
   left: 10%;
-  top: 0.5%;
+  top: 1%;
   width: 80%;
   height: 90%;
   margin: auto;
   z-index: 999;
-  border: solid 2px chartreuse;
+  border: 7px outset #0B2A3F;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
