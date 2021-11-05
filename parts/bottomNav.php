@@ -27,6 +27,3 @@
     
 </nav>
 </section>
-
-<?php include('../parts/skills.php')?>
-<?php include('../parts/form.php')?>

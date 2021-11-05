@@ -55,9 +55,9 @@
                     transform: scale(1.2);
                 }
         }
-                button{
+                button#btn{
                     font-family: $font-1;
-                    margin-left: 200px;
+                    margin-left: 400px;
                     padding: 5px 5px 5px 5px;
                     top: 20px;
                     box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
@@ -67,7 +67,7 @@
                     background: none; 
                     cursor: pointer;      
                     }
-                        &:hover {
+                        button#btn:hover {
                             cursor: pointer;
                             box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
                                 h2{
@@ -89,13 +89,12 @@
 
 #about-me{
     background: $linear-2;
-    width: 687px;
-    left: 0px;
+    width: 40%;
     top: 0px;
     border-radius: 0px 0px 10px 10px;
     display: flex;
     justify-content: space-around;
-    margin-left: 50px;
+    margin-left: 200px;
     font-family: $font-1;
         p{
             font-family: $font-1;
@@ -127,7 +126,7 @@
             }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
     .topnav{
         display: flex;
         width: 100%;
@@ -183,7 +182,7 @@
                     }
                    
             }
-                    button{
+                    button#btn{
                         font-family: $font-1;
                         margin-left: 5px;
                         padding: 1px 1px 1px 1px;
@@ -194,8 +193,8 @@
                         border-radius: 10px;
                         background: none; 
                         cursor: pointer;    
-                                &:active {
-                            
+                                button#btn:active {
+                            display: none;
                             box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
                                 h2{
                                     font-size:0.7rem;
@@ -218,13 +217,13 @@
     
     #about-me{
         background: $linear-2;
-        /* width: 100%; */
+        width: 100%;
         left: 0px;
         top: 0px;
         border-radius: 0px 0px 10px 10px;
         display: flex;
        flex-direction: column;
-       flex-direction: wrap;
+       flex-direction: wrap !important;
         margin-left: 0px;
         font-family: $font-1;
             p{
@@ -234,11 +233,11 @@
                 font-size: 0.8rem;
                 line-height: 15px;
                 padding-top: 25px;
-                padding-left: 25px;
-                width: 50%;
+                padding-left: 10px;
+                width: 100% !important;
             }
             img{
-                width: 100px;
+                width: 200px;
                 padding-left: 1rem;
                 padding-right: 1rem;
             }
@@ -249,7 +248,8 @@
                     flex-wrap: wrap;
                     align-items: center;
                     justify-content: center;
-                    width: 60%;
+                    width: 100%;
+                    margin-bottom: 1rem;
                         span:nth-child(1){
                             text-align: center;
                             margin-top: 5%!important;

@@ -80,7 +80,7 @@ section.bottomNav nav #projet p {
   text-decoration: underline;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
   /* Styles pour cette Media Queries */
   section.bottomNav {
     width: 100%;

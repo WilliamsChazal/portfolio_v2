@@ -27,7 +27,7 @@ if($_SESSION['username']){
 <div class="admin_projet">
     <a href="projet.php"><button>Voir les projets</button></a><br>
     <a href="skills.php"><button>Voir les compétences</button></a><br>
-    <a href="add_projet.php"><button>Ajouter un Design</button></a><br>
+    <a href="design.php"><button>Voir les Designs</button></a><br>
     <br>
     <br>
     <a href="register.php"><button>Créer un compte</button></a><br>

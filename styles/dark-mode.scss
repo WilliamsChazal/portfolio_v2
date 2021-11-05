@@ -170,7 +170,7 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
 }
     }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
 
     .dark-mode{
         background-image: url('../assets/img/backgroundDark.png');

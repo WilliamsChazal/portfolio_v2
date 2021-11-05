@@ -301,7 +301,7 @@ h2 {
   background: linear-gradient(344.38deg, rgba(0, 0, 0, 0.6) 12.66%, rgba(0, 0, 0, 0.74) 89.61%);
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
   .dark-mode {
     background-image: url("../assets/img/backgroundDark.png");
     height: 100%;

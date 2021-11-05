@@ -28,22 +28,3 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   /* captionText.innerHTML = dots[slideIndex-1].alt; */
 }
-
-/* // Get the modal des compétences
-let modal_4 = document.getElementsByClassName("modal_skills")[0];
-
-// Get the button that opens the modal
-let btn_4 = document.getElementById("openSkills");
-
-// Get the <span> element that closes the modal
-let btn__4 = document.getElementsByClassName("close")[1];
-
-// When the user clicks on the button, open the modal
-btn_4.onclick = function() {
-  modal_4.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-btn__4.onclick = function() {
-  modal_4.style.display = "none";
-} */

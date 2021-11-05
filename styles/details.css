@@ -130,7 +130,7 @@
   padding: 1rem 1rem 0.5rem 1rem;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
   .modal_details {
     left: 0%;
     top: 5%;
