@@ -30,4 +30,5 @@
                 <p><?=$result['projet_contexte']?></p>
                 <p><?=$result['projet_specs']?></p>
     </span>
- 
+</div>
+

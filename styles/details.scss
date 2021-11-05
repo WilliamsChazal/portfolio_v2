@@ -1,3 +1,5 @@
+
+
 .modal_details{
 
     left: 30%;
@@ -91,10 +93,10 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-    .modal_details{
 
+    .modal_details{
         left: 0%;
-         top: 0%;
+         top: 10%;
          width: 100%;
          margin: auto;
          z-index: 999;
@@ -109,30 +111,30 @@
        flex-wrap: wrap;
             .icons {
                 display: flex;
-                flex-direction: column;
-                width: 20%;
+                flex-direction: row;
+                width: 100%;
                 align-items: center;
                 text-align: center;
                 justify-content: center;
                 padding-left: 0.5rem;
                     span{
-                        padding-top: 1rem;
-                        padding-bottom: 1rem;
+                        padding: 5px 5px 5px 5px;
                             img{
                                 justify-content: center;
                                 text-align: center;
-                                padding: 5px 5px 5px 5px;
+                                padding: 2px 2px 2px 2px;
                                 background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.713548) 33.75%, rgba(255, 255, 255, 0.58) 49.48%, rgba(255, 255, 255, 0.69) 100%);
                                 border: 1px solid #FFFFFF;
                                 box-sizing: border-box;
                                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                                 backdrop-filter: blur(9px);
                                 border-radius: 25px;
-                                width: 80px;
-                                height: 80px;
+                                width: 40px;
+                                height: 40px;
                             }
                             p{
-                                padding: 5px 5px 5px 5px;
+                                padding: 2px 2px 2px 2px;
+                                font-size: 0.7rem;
                                 text-align: center;
                                 background: linear-gradient(90deg, #FFFFFF 3.8%, rgba(255, 255, 255, 0.69) 94.57%);
                                 filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
@@ -157,12 +159,14 @@
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
+                flex-wrap: wrap;
                 background: linear-gradient(180deg, rgba(254, 254, 254, 0.41) 0%, rgba(254, 254, 254, 0) 100%);
                 border-radius: 21px;
-                margin: 2rem 2rem 2rem 2rem;
+                margin: auto;
                     span{
                         display: flex;
                         flex-direction: column;
+                        padding-bottom: 1rem;
                         
                             img{
                                 padding: 2rem 2rem 2rem 2rem;
@@ -173,11 +177,12 @@
                                 font-family: 'Source Code Pro';
                                 padding: 1rem 0 0 1rem;
                                 font-weight: bold;
-                                font-size: 1.5rem;
+                                font-size: 1rem;
                             }
                             p{
                                 font-family: 'Source Code Pro';
                                 padding: 1rem 1rem 0.5rem 1rem;
+                                font-size: 0.8rem;
                             }
                     }
             }

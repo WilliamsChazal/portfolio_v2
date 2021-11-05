@@ -63,3 +63,34 @@
     cursor: move;
     z-index: 10;
   }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .task_bar{
+      font-family: $font-1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        background: linear-gradient(180deg, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+        box-sizing: border-box;
+        box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px 15px 0px 0px;
+        font-size: 0.8rem;
+             span {
+               margin-left: 20px;
+               margin-right: 20px;
+             }
+             
+          
+      }
+    .modal_generic{
+      position: absolute;
+      z-index: 11;
+        .task_bar{
+          cursor:auto;
+        }
+    }
+
+  }

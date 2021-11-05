@@ -133,7 +133,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .modal_details {
     left: 0%;
-    top: 0%;
+    top: 10%;
     width: 100%;
     margin: auto;
     z-index: 999;
@@ -154,11 +154,11 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 20%;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -169,15 +169,14 @@
     padding-left: 0.5rem;
   }
   .modal_details--content .icons span {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 5px 5px 5px 5px;
   }
   .modal_details--content .icons span img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
-    padding: 5px 5px 5px 5px;
+    padding: 2px 2px 2px 2px;
     background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(33.75%, rgba(255, 255, 255, 0.713548)), color-stop(49.48%, rgba(255, 255, 255, 0.58)), to(rgba(255, 255, 255, 0.69)));
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.713548) 33.75%, rgba(255, 255, 255, 0.58) 49.48%, rgba(255, 255, 255, 0.69) 100%);
     border: 1px solid #FFFFFF;
@@ -188,11 +187,12 @@
     -webkit-backdrop-filter: blur(9px);
             backdrop-filter: blur(9px);
     border-radius: 25px;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
   }
   .modal_details--content .icons span p {
-    padding: 5px 5px 5px 5px;
+    padding: 2px 2px 2px 2px;
+    font-size: 0.7rem;
     text-align: center;
     background: -webkit-gradient(linear, left top, right top, color-stop(3.8%, #FFFFFF), color-stop(94.57%, rgba(255, 255, 255, 0.69)));
     background: linear-gradient(90deg, #FFFFFF 3.8%, rgba(255, 255, 255, 0.69) 94.57%);
@@ -224,10 +224,12 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 254, 254, 0.41)), to(rgba(254, 254, 254, 0)));
     background: linear-gradient(180deg, rgba(254, 254, 254, 0.41) 0%, rgba(254, 254, 254, 0) 100%);
     border-radius: 21px;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: auto;
   }
   .modal_details--content .details-projets span {
     display: -webkit-box;
@@ -237,6 +239,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-bottom: 1rem;
   }
   .modal_details--content .details-projets span img {
     padding: 2rem 2rem 2rem 2rem;
@@ -247,11 +250,12 @@
     font-family: 'Source Code Pro';
     padding: 1rem 0 0 1rem;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .modal_details--content .details-projets span p {
     font-family: 'Source Code Pro';
     padding: 1rem 1rem 0.5rem 1rem;
+    font-size: 0.8rem;
   }
 }
 /*# sourceMappingURL=details.css.map */
