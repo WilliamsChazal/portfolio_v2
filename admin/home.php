@@ -26,7 +26,7 @@ if($_SESSION['username']){
     <div>Bonjour <?php echo $_SESSION['username'];?> </div>
 <div class="admin_projet">
     <a href="projet.php"><button>Voir les projets</button></a><br>
-    <a href="add_projet.php"><button>Ajouter une compétence</button></a><br>
+    <a href="skills.php"><button>Voir les compétences</button></a><br>
     <a href="add_projet.php"><button>Ajouter un Design</button></a><br>
     <br>
     <br>
