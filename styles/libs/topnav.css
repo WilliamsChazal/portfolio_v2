@@ -74,7 +74,7 @@
   transform: scale(1.2);
 }
 
-.topnav button, .topnav button:hover {
+.topnav button {
   font-family: "Source Code Pro", sans-serif;
   margin-left: 200px;
   padding: 5px 5px 5px 5px;
@@ -89,13 +89,13 @@
   cursor: pointer;
 }
 
-.topnav button:hover {
+.topnav:hover {
   cursor: pointer;
   -webkit-box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.topnav button:hover h2 {
+.topnav:hover h2 {
   font-size: 1.1rem;
 }
 
@@ -195,7 +195,6 @@
     font-family: "Source Code Pro", sans-serif;
     font-weight: 500;
     font-size: 0.7rem;
-    padding: 1px 1px 1px 1px;
   }
   .topnav div {
     display: -webkit-box;
@@ -233,11 +232,11 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     /* IE 9 */
-    -webkit-transform: scale(1.2);
+    -webkit-transform: scale(none);
     /* Safari 3-8 */
-    transform: scale(1.2);
+    transform: scale(none);
   }
-  .topnav button, .topnav button:hover {
+  .topnav button {
     font-family: "Source Code Pro", sans-serif;
     margin-left: 5px;
     padding: 1px 1px 1px 1px;
@@ -252,7 +251,6 @@
     cursor: pointer;
   }
   .topnav button:active {
-    cursor: pointer;
     -webkit-box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
             box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
   }
@@ -273,30 +271,10 @@
   #about-me {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 239, 239, 0.479)), color-stop(0%, rgba(219, 219, 219, 0.61)));
     background: linear-gradient(180deg, rgba(242, 239, 239, 0.479) 0%, rgba(219, 219, 219, 0.61) 0%);
-    width: 687px;
+    /* width: 100%; */
     left: 0px;
     top: 0px;
     border-radius: 0px 0px 10px 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    margin-left: 50px;
-    font-family: "Source Code Pro", sans-serif;
-  }
-  #about-me p {
-    font-family: "Source Code Pro", sans-serif;
-    height: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    line-height: 20px;
-    padding-top: 25px;
-    padding-left: 25px;
-    width: 50%;
-  }
-  #about-me div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -304,19 +282,56 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 45%;
+    flex-direction: wrap;
+    margin-left: 0px;
+    font-family: "Source Code Pro", sans-serif;
+  }
+  #about-me p {
+    font-family: "Source Code Pro", sans-serif;
+    height: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.8rem;
+    line-height: 15px;
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 50%;
+  }
+  #about-me img {
+    width: 100px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #about-me div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 60%;
   }
   #about-me div span:nth-child(1) {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 5% !important;
   }
   #about-me div span:nth-child(2) {
     text-align: center;
-    margin-top: 15%;
+    padding-right: 1rem;
   }
   #about-me div span:nth-child(3) {
-    margin-top: 20%;
-    text-align: end;
+    margin-top: 2rem;
+    text-align: right;
   }
 }
 /*# sourceMappingURL=topnav.css.map */

@@ -44,11 +44,7 @@ h2{
     cursor: pointer;
     box-sizing: border-box;
 }
-.close :hover{
-    @extend .close;
-    background: blue;
-    box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.50);
-}
+
 
 .modal{
     display: none;

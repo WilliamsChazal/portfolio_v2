@@ -77,7 +77,7 @@ h2 {
   font-size: 1.5rem;
 }
 
-.close, .close :hover {
+.close {
   width: 29.05px;
   height: 29px;
   background: #FD0808;
@@ -87,12 +87,6 @@ h2 {
   cursor: pointer;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-.close :hover {
-  background: blue;
-  -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.5);
-          box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.5);
 }
 
 .modal {
@@ -317,8 +311,8 @@ h2 {
     transition: ease-in 0.6s;
   }
   .dark-mode .task_bar {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.42)), to(rgba(41, 41, 41, 0.97)));
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(41, 41, 41, 0.97) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, black), to(#181818));
+    background: linear-gradient(180deg, black 100%, #181818 100%);
     color: white;
   }
   .dark-mode .topnav {
@@ -417,9 +411,6 @@ h2 {
   .dark-mode .bottomNav nav img {
     -webkit-filter: brightness(90%);
             filter: brightness(90%);
-  }
-  .dark-mode .bottomNav nav #line {
-    background: white;
   }
   .dark-mode .modal_projets .modal_projets--content {
     color: white;
