@@ -10,7 +10,7 @@
 
 
 
-<a href="add_design.php"><button>Ajouter un projet</button></a>
+<a href="add_design.php"><button>Ajouter un design</button></a>
 <br><a href="home.php"><button>Retour</button></a>
 
 </body>
