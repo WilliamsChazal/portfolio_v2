@@ -133,7 +133,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .modal_details {
     left: 0%;
-    top: 10%;
+    top: 5%;
     width: 100%;
     margin: auto;
     z-index: 999;
@@ -242,6 +242,7 @@
     padding-bottom: 1rem;
   }
   .modal_details--content .details-projets span img {
+    height: 200px;
     padding: 2rem 2rem 2rem 2rem;
     -webkit-filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
             filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));

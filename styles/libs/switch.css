@@ -131,8 +131,8 @@ input[type='checkbox']:checked ~ .check:before {
     transition: 0.5s;
   }
   .dark-mode input[type='checkbox']:checked ~ .check:before {
-    -webkit-transform: translateX(50px);
-            transform: translateX(50px);
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
   }
 }
 /*# sourceMappingURL=switch.css.map */
