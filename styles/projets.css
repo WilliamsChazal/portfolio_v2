@@ -59,4 +59,66 @@
   transform: scale(1.2);
   text-decoration: underline;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .modal_projets {
+    /*   display: none; */
+    top: 10%;
+    left: 0%;
+    margin: auto;
+    /*   overflow: auto;  */
+  }
+  .modal_projets .modal_projets--content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 5px 5px 5px 5px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+    border: black solid 1px;
+    background: linear-gradient(179.94deg, #E2E0E0 0.05%, rgba(242, 239, 239, 0.9) 99.95%);
+    border: 1px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-backdrop-filter: blur(6px);
+            backdrop-filter: blur(6px);
+    height: 70vh;
+  }
+  .modal_projets .modal_projets--content span {
+    width: 50%;
+    height: 30%;
+    padding: 10px 10px 10px 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .modal_projets .modal_projets--content span img {
+    width: 60px;
+    height: 60px;
+  }
+  .modal_projets .modal_projets--content span p {
+    margin: auto;
+    font-family: "Source Code Pro", sans-serif;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    font-size: 0.7rem;
+  }
+  .modal_projets .modal_projets--content span:active {
+    cursor: pointer;
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+    text-decoration: underline;
+  }
+}
 /*# sourceMappingURL=projets.css.map */
