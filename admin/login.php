@@ -38,7 +38,7 @@
                             }    $_SESSION['success']='';                    
                          ?>
                    <!--  <div class="d-flex justify-content-end mt-3"><a href="form_user-register.php">S'inscrire</a></div> -->
-                   <a href="../index.php"><button type="submit" class="btn btn-outline-primary">Retour</button></a>  
+                   <a href="../index.php" target="_blank"><button type="submit" class="btn btn-outline-primary">Retour</button></a>  
 </div>
     
     
