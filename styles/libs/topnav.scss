@@ -128,5 +128,133 @@
             }
 }
 
-
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .topnav{
+        display: flex;
+        width: 100%;
+        border:  2px solid #FFFEFE;
+        background: $linear-1;
+        height: 70px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        border-radius: 120px;
+        font-family: $font-2!important;
+        justify-content: space-between;
+       /*  align-items: center; */
+            h1{
+                font-family: $font-4;
+                font-weight: 400;
+                font-size: 1.6rem;
+            }
+            h2{
+                font-family: $font-1;
+                font-weight: 500;
+                font-size: 0.7rem;
+                padding: 1px 1px 1px 1px;
+            }
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                    #logo{
+                        display: none;
+                        background-image: url(../../assets/img/logo.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        width: 20px;
+                        height: 20px;
+                        padding: 5px 5px 5px 5px;
+                        margin-left: 5px;
+                        box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+                        border-radius: 50px;
+                        cursor: pointer;
+                        box-sizing: border-box;
+                    }
+                    #logo:hover{
+                        padding: 5px 5px 5px 5px;
+                        margin-left: 50px;
+                        background-image: url(../../assets/img/logo.png);
+    
+                        border-radius: 50px;
+                        cursor: pointer;
+                        box-sizing: border-box;
+                        -ms-transform: scale(1.2); /* IE 9 */
+                        -webkit-transform: scale(1.2); /* Safari 3-8 */
+                        transform: scale(1.2);
+                    }
+            }
+                    button{
+                        font-family: $font-1;
+                        margin-left: 5px;
+                        padding: 1px 1px 1px 1px;
+                        top: 20px;
+                        box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
+                        border: 1px solid #E9E3E3;
+                        box-sizing: border-box;
+                        border-radius: 10px;
+                        background: none; 
+                        cursor: pointer;    
+                                &:active {
+                            cursor: pointer;
+                            box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
+                                h2{
+                                    font-size:0.7rem;
+                                }
+                        }  
+                        }
+                            
+                                div#digital-clock__time{
+                                    font-family:$font-3 !important;
+                                    font-size: 1rem; 
+                                    margin-right: 20px;
+                                }   
+                                    #digital-clock__date--day{
+                                        margin-left: 0.5px;
+                                    }
+                                    #switch{
+                                        margin-left: 5px;
+                                    }
+    }
+    
+    #about-me{
+        background: $linear-2;
+        width: 687px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px 0px 10px 10px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 50px;
+        font-family: $font-1;
+            p{
+                font-family: $font-1;
+                height: 100%;
+                align-items: center;
+                line-height: 20px;
+                padding-top: 25px;
+                padding-left: 25px;
+                width: 50%;
+            }
+    
+                div{
+                    display: flex;
+                    flex-direction: column; 
+                    width: 45%; 
+                        span:nth-child(1){
+                            text-align: center;
+                            margin-top: 20%;
+                        } 
+                        span:nth-child(2){
+                            text-align: center;
+                            margin-top: 15%;
+                        }
+                        span:nth-child(3){
+                            margin-top: 20%;
+                            text-align: end;
+                        }
+                        
+                }
+    }
+}
 

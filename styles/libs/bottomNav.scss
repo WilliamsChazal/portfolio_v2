@@ -95,7 +95,7 @@ section.bottomNav{
                         justify-content: center;
                         align-items: center;
                             p{
-                                /* margin-left: 50px; */
+                                margin-left: 0px;
                                 margin-bottom: 7px;
                                 font-family: $font-1;
                                 font-size: 0.5rem;
@@ -112,7 +112,7 @@ section.bottomNav{
                     width: 25px;
                     height: auto;   
                 }
-                .hover:hover{
+                .hover:active{
                     cursor: pointer;
                     -ms-transform: scale(1.2); /* IE 9 */
                     -webkit-transform: scale(1.2); /* Safari 3-8 */

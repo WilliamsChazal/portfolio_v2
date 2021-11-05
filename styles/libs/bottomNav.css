@@ -126,7 +126,7 @@ section.bottomNav nav #projet p {
             align-items: center;
   }
   section.bottomNav nav div p {
-    /* margin-left: 50px; */
+    margin-left: 0px;
     margin-bottom: 7px;
     font-family: "Source Code Pro", sans-serif;
     font-size: 0.5rem;
@@ -141,7 +141,7 @@ section.bottomNav nav #projet p {
     width: 25px;
     height: auto;
   }
-  section.bottomNav nav .hover:hover {
+  section.bottomNav nav .hover:active {
     cursor: pointer;
     /* IE 9 */
     -webkit-transform: scale(1.2);
