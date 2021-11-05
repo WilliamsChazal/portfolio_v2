@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="../styles/libs/task_bar.css">
         <link rel="stylesheet" href="../styles/libs/icons.css">
         <script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Williams Chazal</title>
     </head>
     <body>
