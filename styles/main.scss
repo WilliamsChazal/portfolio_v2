@@ -18,7 +18,7 @@
  html{
     height: 100%;
     overflow: hidden;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
@@ -32,6 +32,8 @@ body{
     overflow: hidden;
 }
 
+
+
 h2{
     font-size: 1.5rem;
 }
@@ -40,7 +42,9 @@ h4{
     font-family: $font-4;
     font-size: 1.5rem!important;
 }
-
+p{
+    font-size: 1rem;
+}
 .close{
     width: 29.05px;
     height: 29px;

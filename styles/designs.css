@@ -1,7 +1,7 @@
 .modal_design {
   left: 20%;
-  top: 5%;
-  width: 70%;
+  top: 8%;
+  width: 80%;
   /* height: 600px!important; */
 }
 
@@ -10,6 +10,7 @@
   height: 700px;
   overflow: auto;
   overflow: scroll;
+  overflow-x: hidden;
   background: linear-gradient(179.94deg, #E2E0E0 0.05%, rgba(242, 239, 239, 0.9) 99.95%);
   border: 1px solid #FFFFFF;
 }
@@ -19,8 +20,47 @@
 }
 
 /* ---- grid ---- */
-.grid {
-  background: #DDD;
+.grid h5 {
+  padding-top: 0.5rem;
+  font-family: "Digital-7 Mono";
+  font-size: 2rem !important;
+}
+
+.grid p {
+  padding-top: 0.5rem;
+  font-family: "Source Code Pro", sans-serif;
+}
+
+.grid span {
+  padding-top: 0.8rem;
+}
+
+.grid button {
+  margin-top: 0.5rem;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+          box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffffff), to(#f6f6f6));
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.grid button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #d1cfcf), to(#dfdede));
+  background: linear-gradient(to bottom, #d1cfcf 5%, #dfdede 100%);
+  background-color: #f6f6f6;
+  text-shadow: none;
+  color: black;
 }
 
 /* clear fix */
@@ -33,12 +73,87 @@
 /* ---- .grid-item ---- */
 .grid-sizer,
 .grid-item {
-  width: 49%;
+  width: 50%;
 }
 
 .grid-item {
   float: left;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
+  .modal_design {
+    left: 0%;
+    top: 10%;
+    width: 100%;
+    margin: auto;
+    z-index: 999;
+    /* height: 600px!important; */
+  }
+  .modal_design .modal_design--content {
+    width: 100%;
+    overflow: auto;
+    overflow: scroll;
+  }
+  .modal_design .modal_design--content span :nth-child(1) {
+    text-align: center;
+  }
+  .grid button:active {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #d1cfcf), to(#dfdede));
+    background: linear-gradient(to bottom, #d1cfcf 5%, #dfdede 100%);
+    background-color: #f6f6f6;
+    text-shadow: none;
+    color: black;
+  }
+  span {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+.grid-sizer,
+.grid-item {
+  width: 50%;
+}
+
+.grid-item {
+  float: left;
+  text-align: left !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
