@@ -39,7 +39,7 @@ if($_SESSION['username']){
             }
             
             // Check file size
-            if ($_FILES["projet_logo"]["size"] > 5000000) {
+            if ($_FILES["projet_logo"]["size"] > 500000000) {
               echo "Sorry, your file is too large.";
               $uploadOk = 0;
             }
