@@ -64,7 +64,7 @@ html {
 }
 
 body {
-  background-image: url("../assets/img/background.png");
+  background-image: url("../assets/background/background-day-mode.svg");
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,8 +102,20 @@ p {
   display: none;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
+  body {
+    background-image: url("../assets/background/day-mode-phone.svg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: ease-in 0.6s;
+    transition: ease-in 0.6s;
+    overflow: hidden;
+  }
+}
+
 .dark-mode {
-  background-image: url("../assets/img/backgroundDark.png");
+  background-image: url("../assets/background/background-dark-mode.svg");
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -333,7 +345,7 @@ p {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
   .dark-mode {
-    background-image: url("../assets/img/backgroundDark.png");
+    background-image: url("../assets/background/night-mode-phone.svg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
