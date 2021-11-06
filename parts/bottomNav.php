@@ -9,7 +9,7 @@
         <img src="../assets/icons/coding.svg" alt="" srcset="">
         <p>Compétences</p>
     </div>
-    <div class='hover'>
+    <div class='hover' onclick='openModal("designs.php", "modal_design" ,"Webdesign", 10)'>
         <img src="../assets/icons/designer.png" alt="" srcset="">
         <p>Webdesign</p>
     </div>

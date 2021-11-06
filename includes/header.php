@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="../styles/projets.css">
         <link rel="stylesheet" href="../styles/details.css">
         <link rel="stylesheet" href="../styles/skills.css">
+        <link rel="stylesheet" href="../styles/designs.css">
         <link rel="stylesheet" href="../styles/form.css">
         <link rel="stylesheet" href="../styles/libs/task_bar.css">
         <link rel="stylesheet" href="../styles/libs/icons.css">

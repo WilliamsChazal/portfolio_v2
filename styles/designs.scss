@@ -1,0 +1,17 @@
+.modal_design{
+    left: 15%;
+    top: 15%;
+    width: 70%;
+        .modal_design--content{
+            width: 100%;
+            background: linear-gradient(179.94deg, #E2E0E0 0.05%, rgba(242, 239, 239, 0.9) 99.95%);
+            border: 1px solid #FFFFFF;
+                span{
+                    :nth-child(1){
+                        text-align: center;
+                    }
+                }
+        }
+}
+     
+
