@@ -22,10 +22,15 @@
 
 <script>
 
+
 function displayIframe() {
         let frame = document.getElementById("iframeDisplay");
+        
         document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://williamsc.promo-68.codeur.online/wolfenbomberstein/\" height=\"100%\" width=\"100%\" ></iframe>";
-            frame.style.display ='block'}
+            frame.style.display ='block'
+        document.getElementById('close_games').style.display ='block';
+        
+        }
 function removeIFrame() {
       let frame = document.getElementById("iframeDisplay");
       frame.style.display ='none';
