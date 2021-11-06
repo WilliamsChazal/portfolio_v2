@@ -25,7 +25,11 @@ session_start();
   <textarea class="form-control" name="design_texte" id="exampleFormControlTextarea1" placeholder="Description du design" rows="3"></textarea>
 </div>
 <div class="mb-3">
-  <label for="input_logo" class="form-label">Fichier du Design</label>
+  <label for="input_logo" class="form-label">Aperçu du Design</label>
+  <input class="form-control"  name="design_thumbnail" type="file" id="formFile" placeholder="Fichier du Design">
+</div>
+<div class="mb-3">
+  <label for="input_file" class="form-label">Fichier du Design</label>
   <input class="form-control"  name="design_file" type="file" id="formFile" placeholder="Fichier du Design">
 </div>
 <div class="col-auto">

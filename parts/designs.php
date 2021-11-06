@@ -8,10 +8,10 @@
     <p>Descirption de la maquette</p>
   </div>
   <div class="grid-item">
-    <img src="../assets/img/maquette_victuaille.png" />
+    <img src="../assets/img/thumbnail_victuaille.png" />
     <h5>Titre</h5>
     <p>Descirption de la maquette</p>
-   <a href="../assets/img/Frame 20.png" target="_blank" rel="noopener noreferrer"> <button>Voir le Design</button></a>
+   <a href="../assets/img/maquette_victuaille.png" target="_blank" rel="noopener noreferrer"> <button>Voir le Design</button></a>
   </div>
   <div class="grid-item">
     <img src="../assets/img/maquette_yupanki.png" />

@@ -33,7 +33,7 @@ if($_SESSION['username']){
     foreach ($result as $design) {
 ?>
  <a href="design_detail.php?id=<?=$design['iddesign']?>"><?=$design['design_titre']?></a><br>
- <img src="assets_admin/admin_design/<?= $design['design_file'] ?>"><br>
+ <img src="assets_admin/admin_design/<?= $design['design_thumbnail'] ?>"><br>
  
 <?php
     }
