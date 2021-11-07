@@ -150,12 +150,7 @@ section.bottomNav nav #projet p {
     font-weight: 700;
   }
   section.bottomNav nav #projet {
-    text-align: center;
-  }
-  section.bottomNav nav #projet p {
-    margin-left: 0 !important;
-    text-align: center;
-    text-decoration: underline;
+    display: none;
   }
 }
 /*# sourceMappingURL=bottomNav.css.map */
