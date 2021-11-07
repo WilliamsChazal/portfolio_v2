@@ -178,6 +178,18 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
     }
    
 }
+.socials{
+    color: white;
+    img{
+        background:$linear-dark-3;
+        border:black 1px solid;
+        filter: contrast(90%);
+    }
+    p{
+        background: $linear-dark-1;
+    }
+}
+
 .modal_design{
     .modal_design--content{
         color: white;

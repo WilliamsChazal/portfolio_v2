@@ -336,6 +336,22 @@ p {
   background: linear-gradient(344.38deg, rgba(0, 0, 0, 0.6) 12.66%, rgba(0, 0, 0, 0.74) 89.61%);
 }
 
+.dark-mode .socials {
+  color: white;
+}
+
+.dark-mode .socials img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.5025)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5025) 100%);
+  border: black 1px solid;
+  -webkit-filter: contrast(90%);
+          filter: contrast(90%);
+}
+
+.dark-mode .socials p {
+  background: linear-gradient(344.38deg, rgba(0, 0, 0, 0.6) 12.66%, rgba(0, 0, 0, 0.74) 89.61%);
+}
+
 .dark-mode .modal_design .modal_design--content {
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 5, 5, 0.747)), to(#303030)) !important;
