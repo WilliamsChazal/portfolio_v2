@@ -16,17 +16,35 @@ if($_SESSION['username']){
 ?>
 
 <?php include('./header_admin.php')?>
-<?php include('./navbar_admin.php')?>
-<?php
+
+<div class="container-fluid">
+<?php include('./navbar_admin.php')?>  
+
+<div class="col">
+
+    <div class="col">
+        <div class="container-fluid--projet ">
+            <div class="col--projet">
+            <?php
     foreach ($result as $projet) {
 ?>
- 
- <img src="assets_admin/admin_logo/<?= $projet['projet_logo'] ?>"><br>
- <a href="projet_detail.php?id=<?=$projet['idprojet']?>"><?=$projet['projet_titre']?></a><br>
-<?php
+            <div class="card" style="width: 18rem;">
+
+                 <img src="assets_admin/admin_logo/<?= $projet['projet_logo'] ?>" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><?=$projet['projet_titre']?></h5>
+                    <p class="card-text"><?=$projet['projet_contexte']?></p>
+                    <a href="projet_detail.php?id=<?=$projet['idprojet']?>" class="btn btn-primary"><?=$projet['projet_titre']?></a>
+                </div>
+                </div>
+                <?php
     }
 ?>
-<a href="add_projet.php"><button>Ajouter un projet</button></a>
-<br><a href="home.php"><button>Retour</button></a>
+            </div>
+           <!--  <div class="col">test</div> -->
+        </div>
+    </div>
+
+</div>
 
 <?php include('./footer_admin.php')?>
