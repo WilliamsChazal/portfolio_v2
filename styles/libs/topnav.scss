@@ -219,10 +219,12 @@
     }
     
     #about-me{
+        position: absolute;
+        z-index: 99;
         background: rgba(196, 196, 196, 0.918);
         width: 100%;
         left: 0px;
-        top: 0px;
+        top:10%;
         border-radius: 0px 0px 10px 10px;
         display: flex;
        flex-direction: column;

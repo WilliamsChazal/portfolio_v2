@@ -24,7 +24,7 @@
     <img src="../admin/assets_admin/admin_design/<?=$designs['design_thumbnail']?>"/>
     <h5><?=$designs['design_titre']?></h5>
     <p><?=$designs['design_texte']?></p>
-   <a href="../admin/assets_admin/admin_design/<?=$designs['design_file']?>" target="_blank" rel="noopener noreferrer"> <button>Voir la maquette : <?=$designs['design_titre']?> </button></a>
+   <a href="../admin/assets_admin/admin_design/<?=$designs['design_file']?>" target="_blank" rel="noopener noreferrer"> <button class='design'>Voir la maquette : <?=$designs['design_titre']?> </button></a>
    <?php
                 }
       ?>

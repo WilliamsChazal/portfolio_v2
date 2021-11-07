@@ -2,15 +2,7 @@
 session_start();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <titre>Ajouter un projet</titre>
-</head>
-<body>
+<?php include('./header_admin.php')?>
 
     <form action="projet_handler.php" method="post" enctype="multipart/form-data"> 
 
@@ -73,5 +65,4 @@ session_start();
 
     </form>
 
-</body>
-</html>
+    <?php include('./footer_admin.php')?>

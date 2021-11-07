@@ -1,5 +1,11 @@
 @import '../libs/resources.scss';
-
+a{
+  text-decoration: none!important;
+  color: inherit;
+}a:active{
+  text-decoration: none!important;
+  color: inherit;
+}
 .games{
     left: 50px;
     top: 245px;

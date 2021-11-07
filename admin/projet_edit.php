@@ -19,15 +19,8 @@ if($_SESSION['username']){
     echo 'Vous n\'êtes pas identifiez';
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <titre>Modifier le projet <br>  <?=$result['projet_titre']?></titre>
-</head>
-<body>
+
+<?php include('./header_admin.php')?>
 
 <form action="projet_handler.php" method="post" enctype="multipart/form-data"> 
 
@@ -112,5 +105,4 @@ if($_SESSION['username']){
 <br>
 
 <a href="projet-detail.php?id=<?=$result['idprojet']?>"><button>Retour</button></a>
-</body>
-</html>
+<?php include('./footer_admin.php')?>

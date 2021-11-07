@@ -17,13 +17,14 @@
 
 <section class='socials'>
     <div>
-    <span>
     <?php
                 foreach ($result as $socials) {
             ?>
-        <img src="./../admin/assets_admin/admin_logo/<?=$socials['socials_logo']?>" alt="" srcset="">
-        <a href="<?=$socials['socials_link']?>" target="_blank" rel="noopener noreferrer"><span><p><?=$socials['socials_titre']?></p></span></a>
-        <?php
+    <span>
+    <img src="./../admin/assets_admin/admin_logo/<?=$socials['socials_logo']?>" alt="logo " srcset="">
+    <a href="<?=$socials['socials_link']?>" target="_blank" rel="noopener noreferrer"><span><p><?=$socials['socials_titre']?></p></span></a>
+    </span>
+    <?php
                 }
       ?>
     </div>
