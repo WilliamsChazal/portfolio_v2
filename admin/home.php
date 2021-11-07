@@ -32,6 +32,7 @@ if($_SESSION['username']){
         <li> <a href="projet.php" class="nav-link text-white"> <i class="fa fa-dashboard"></i><span class="ms-2">Projets</span> </a> </li>
         <li> <a href="design.php" class="nav-link text-white"> <i class="fa fa-first-order"></i><span class="ms-2">Designs</span> </a> </li>
         <li> <a href="skills.php" class="nav-link text-white"> <i class="fa fa-cog"></i><span class="ms-2">Compétences</span> </a> </li>
+        <li> <a href="socials/socials.php" class="nav-link text-white"> <i class="fa fa-eye" aria-hidden="true"></i><span class="ms-2">Socials</span> </a> </li>
     </ul>
     <hr>
     <div class="dropdown"> <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false"> <img src="../assets/img/photo-1.png" alt="" width="32" height="32" class="rounded-circle me-2"> <strong> <?php echo $_SESSION['username'];?> </strong> </a>

@@ -1,6 +1,6 @@
 <nav class="topnav">
     <div>
-    <a href="../admin/login.php" target="_blank" rel="noopener noreferrer"><button id='logo'></button></a>
+    <a href="../admin/index.php" target="_blank" rel="noopener noreferrer"><button id='logo'></button></a>
         <button  id='btn'><h2>Williams Chazal</h2></button>
         
     </div>

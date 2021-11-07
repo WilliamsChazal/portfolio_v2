@@ -1,17 +1,31 @@
+<!-- <div><h1>Conception visuelle</h1></div> -->
+<?php
+    /* if(isset($_GET['id']) &&!empty($_GET['id'])) { */
+        require_once('../admin/db-connect.php');
+        /* $id = strip_tags($_GET['id']); */
+        /* $sql ='SELECT*FROM `projets` WHERE `idprojet`=:id'; */
+        $sql ='SELECT*FROM `socials`';
+        $query = $db->prepare($sql);
+      /*   $query->bindValue(':id', $id, PDO::PARAM_STR); */
+        $query ->execute();
+        $result = $query->fetchAll();
+        /* var_dump($result); */
+    /* }else{
+        echo'id manquante';
+    } */
+?>
+
 <section class='socials'>
     <div>
     <span>
-        <img src="../assets/icons/github.svg" alt="" srcset="">
-        <span><p>github</p></span>
-    </span>
-    <span>
-        <img src="../assets/icons/linkedin.svg" alt="" srcset="">
-        <span><p>linkedin</p></span>
-    </span>
-    <span>
-        <img src="../assets/icons/instagram.svg" alt="" srcset="">
-        <span><p>Instagram</p></span>
-    </span>
+    <?php
+                foreach ($result as $socials) {
+            ?>
+        <img src="./../admin/assets_admin/admin_logo/<?=$socials['socials_logo']?>" alt="" srcset="">
+        <a href="<?=$socials['socials_link']?>" target="_blank" rel="noopener noreferrer"><span><p><?=$socials['socials_titre']?></p></span></a>
+        <?php
+                }
+      ?>
     </div>
     
 </section>
