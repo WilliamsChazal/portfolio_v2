@@ -11,6 +11,9 @@
       .modal_projets--content{
         display: flex;
         flex-direction: row;
+        overflow: auto;
+        overflow: scroll;
+        overflow-x: hidden;
         padding: 20px 20px 20px 20px;
         flex-wrap: wrap;
         text-align: center;

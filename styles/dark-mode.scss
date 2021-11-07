@@ -39,7 +39,7 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                     border-radius: 50px;
                     cursor: pointer;
                 }
-                        button{
+                #btn{
                             color: $color-1;
                             margin-left: 200px;
                             padding: 5px 5px 5px 5px;
@@ -53,7 +53,7 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                             cursor: pointer;      
                         }
                             button:hover {
-                                @extend button;
+                               
                                 box-shadow: inset 3px -4px 4px rgba(255, 255, 255, 0.25), inset -3px 4px 4px rgba(247, 247, 247, 0.25);
                             }
             }
@@ -219,16 +219,11 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                     background: $linear-dark-1;
                     color: $color-1;
                     border: $color-2;
-                    h1{
-                        font-family: $font-4;
-                        font-weight: 400;
-                        font-size: 1.6rem;
-                    }
                     h2{
                         font-family: $font-1;
                         font-weight: 500;
-                        font-size: 0.7rem;
-                        padding: 1px 1px 1px 1px;
+                        font-size: 0.6rem;
+                        
                     }
                     div{
                         display: flex;
@@ -236,19 +231,19 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                         justify-content: space-around;
                     }
                     #logo{
-                        display: none;
                         background-image: url(../assets/img/logo-dark.png);
                         background-position: center;
                         background-repeat: no-repeat;
                         background-size: cover;
-                        width: 20px;
-                        height: 2px;
-                        margin-left: 50px;
+                        width: 30px;
+                        height: 30px;
+                        padding: 5px 5px 5px 5px;
+                        margin-left: 5px;
                         box-shadow: inset 3px -2px 4px 2px rgba(160, 158, 158, 0.25);
                         border-radius: 50px;
                         cursor: pointer;
                     }
-                            button{
+                    #btn{
                                 color: $color-1;
                                 margin-left: 5px;
                                 padding: 1px 1px 1px 1px;
@@ -258,17 +253,18 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                                 border-radius: 10px;
                                 
                             }
-                                &:active{
+                                /* &:active{
                                     box-shadow: inset 3px -4px 4px rgba(255, 255, 255, 0.25), inset -3px 4px 4px rgba(247, 247, 247, 0.25);
                                         h2{
                                             font-size:0.7rem;
                                         }
-                                }
+                                } */
                                                   
                                 div#digital-clock__time{
                                     font-family:$font-3 !important;
-                                    font-size: 1rem; 
-                                    margin-right: 20px;
+                                    font-size: 0.7rem; 
+                                    font-weight: bold;
+                                    margin-right: 10px;
                                 }   
                                     #digital-clock__date--day{
                                         margin-left: 0.5px;

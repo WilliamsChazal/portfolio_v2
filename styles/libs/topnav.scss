@@ -13,11 +13,6 @@
     font-family: $font-2!important;
     justify-content: space-between;
     align-items: center;
-        h1{
-            font-family: $font-4;
-            font-weight: 400;
-            font-size: 1.6rem;
-        }
         h2{
             font-family: $font-1;
             font-weight: 500;
@@ -55,7 +50,7 @@
                     transform: scale(1.2);
                 }
         }
-                button#btn{
+                #btn{
                     font-family: $font-1;
                     margin-left: 400px;
                     padding: 5px 5px 5px 5px;
@@ -67,7 +62,7 @@
                     background: none; 
                     cursor: pointer;      
                     }
-                        button#btn:hover {
+                        #btn:hover {
                             cursor: pointer;
                             box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
                                 h2{
@@ -94,7 +89,7 @@
     border-radius: 0px 0px 10px 10px;
     display: flex;
     justify-content: space-around;
-    margin-left: 200px;
+    margin-left: 375px;
     font-family: $font-1;
         p{
             font-family: $font-1;
@@ -117,6 +112,29 @@
                     span:nth-child(2){
                         text-align: center;
                         margin-top: 15%;
+                        button{
+                            margin-top: 0.5rem;
+                            box-shadow:inset 0px 1px 0px 0px #ffffff;
+                          background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+                          background-color:#ffffff;
+                          border-radius:6px;
+                          border:1px solid #dcdcdc;
+                          display:inline-block;
+                          cursor:pointer;
+                          color:#666666;
+                          font-family:Arial;
+                          font-size:15px;
+                          font-weight:bold;
+                          padding:6px 24px;
+                          text-decoration:none;
+                          text-shadow:0px 1px 0px #ffffff;
+                                &:hover{
+                                  background:linear-gradient(to bottom, #d1cfcf 5%, #dfdede 100%);
+                                  background-color:#f6f6f6;
+                                    text-shadow:none;
+                                    color: black;
+                                }
+                        }
                     }
                     span:nth-child(3){
                         margin-top: 20%;
@@ -124,6 +142,7 @@
                     }
                     
             }
+           
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
@@ -139,28 +158,22 @@
         font-family: $font-2!important;
         justify-content: space-between;
        /*  align-items: center; */
-            h1{
-                font-family: $font-4;
-                font-weight: 400;
-                font-size: 1.6rem;
-            }
             h2{
                 font-family: $font-1;
                 font-weight: 500;
-                font-size: 0.7rem;
+                font-size: 0.6rem;
             }
             div{
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
                     #logo{
-                        display: none;
                         background-image: url(../../assets/img/logo.png);
                         background-position: center;
                         background-repeat: no-repeat;
                         background-size: cover;
-                        width: 20px;
-                        height: 20px;
+                        width: 30px;
+                        height: 30px;
                         padding: 5px 5px 5px 5px;
                         margin-left: 5px;
                         box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
@@ -168,23 +181,12 @@
                         cursor: pointer;
                         box-sizing: border-box;
                     }
-                    #logo:hover{
-                        padding: 5px 5px 5px 5px;
-                        margin-left: 50px;
-                        background-image: url(../../assets/img/logo.png);
-    
-                        border-radius: 50px;
-                        cursor: pointer;
-                        box-sizing: border-box;
-                        -ms-transform: scale(none); /* IE 9 */
-                        -webkit-transform: scale(none); /* Safari 3-8 */
-                        transform: scale(none);
-                    }
+                   
                    
             }
-                    button#btn{
+                    #btn{
                         font-family: $font-1;
-                        margin-left: 5px;
+                        margin-left: 15px;
                         padding: 1px 1px 1px 1px;
                         top: 20px;
                         box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
@@ -193,19 +195,20 @@
                         border-radius: 10px;
                         background: none; 
                         cursor: pointer;    
-                                button#btn:active {
+                               /*  button#btn:active {
                             display: none;
                             box-shadow: inset 3px -4px 4px rgba(0, 0, 0, 0.25), inset -3px 4px 4px rgba(0, 0, 0, 0.25);
                                 h2{
                                     font-size:0.7rem;
                                 }
-                        }  
+                        }   */
                         }
                             
                                 div#digital-clock__time{
                                     font-family:$font-3 !important;
-                                    font-size: 1rem; 
-                                    margin-right: 20px;
+                                    font-size: 0.7rem; 
+                                    font-weight: bold;
+                                    margin-right: 10px;
                                 }   
                                     #digital-clock__date--day{
                                         margin-left: 0.5px;
@@ -216,7 +219,7 @@
     }
     
     #about-me{
-        background: $linear-2;
+        background: rgba(196, 196, 196, 0.918);
         width: 100%;
         left: 0px;
         top: 0px;
@@ -231,6 +234,7 @@
                 height: 50%;
                 align-items: center;
                 font-size: 0.8rem;
+                font-weight: 500;
                 line-height: 15px;
                 padding-top: 25px;
                 padding-left: 10px;
@@ -257,6 +261,29 @@
                         span:nth-child(2){
                             text-align: center;
                             padding-right: 1rem;
+                            button{
+                                font-size: 0.8rem;
+                                margin-top: 0rem;
+                                box-shadow:inset 0px 1px 0px 0px #ffffff;
+                                background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+                                background-color:#ffffff;
+                                border-radius:6px;
+                                border:1px solid #dcdcdc;
+                                display:inline-block;
+                                cursor:pointer;
+                                color:#666666;
+                                font-family:Arial;
+                                font-weight:bold;
+                                padding:6px 24px;
+                                text-decoration:none;
+                                text-shadow:0px 1px 0px #ffffff;
+                                    &:hover{
+                                      background:linear-gradient(to bottom, #d1cfcf 5%, #dfdede 100%);
+                                      background-color:#f6f6f6;
+                                        text-shadow:none;
+                                        color: black;
+                                    }
+                            }
                         }
                         span:nth-child(3){
                             margin-top: 2rem;
