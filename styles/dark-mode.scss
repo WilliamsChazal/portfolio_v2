@@ -197,12 +197,100 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
         border: 1px solid #000000;
     }
 }
-    
-    /* .grid {
-        background: rgb(32, 32, 32);
-      } */
+
+    }
+@media only screen and (min-device-width : 768px) and (max-device-width :1300px) {
+    .dark-mode{
+        background-image: url('../assets/background/night-mode-phone.svg');
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: ease-in 0.6s;
+        .topnav{
+            background: $linear-dark-1;
+            color: $color-1;
+            border: $color-2;
+            h2{
+                font-family: $font-1;
+                font-weight: 500;
+                font-size: 1.2rem;
+            }
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            #logo{
+                background-image: url(../assets/img/logo-dark.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 50px;
+                height: 50px;
+                padding: 5px 5px 5px 5px;
+                margin-left: 5px;
+                box-shadow: inset 3px -2px 4px 2px rgba(160, 158, 158, 0.25);
+                border-radius: 50px;
+                cursor: pointer;
+            }
+            #btn{
+                        color: $color-1;
+                        margin-left: 50px;
+                        padding: 1px 1px 1px 1px;
+                        top: 20px;
+                        box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
+                        border: 1px solid #3a3939;
+                        border-radius: 10px;
+            }
+                                          
+            div#digital-clock__time{
+                font-family:$font-3 !important;
+                font-size: 1.4rem; 
+                font-weight: bold;
+                margin-right: 20px;
+            }   
+                #digital-clock__date--day{
+                    margin-left: 10px;
+                }
+                #switch{
+                    margin-left: 5px;
+                }
+        }
+div #about-me{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.893) 100%); 
+    color: $color-1;
+}
+ .bottomNav{
+   nav{
+    background:$linear-dark-3;
+    border: 1px solid black;
+        span{
+            color: $color-1;
+        }
+        p{
+            font-family: $font-1;
+            background:$color-2;
+            color: $color-1;
+            text-align: center;
+            border-radius: 25px;
+            padding: 5px 5px 5px 5px;
+            margin-left: 0px;
+            margin-bottom: 7px;
+            font-family: $font-1;
+            font-size:1.2rem;
+
+        }
+        img{
+            filter: contrast(90%);
+            width: 80px;
+            height: auto;
+        }
+        
+   }
+} 
     }
 
+}
 @media only screen and (min-device-width : 320px) and (max-device-width : 760px) {
 
     .dark-mode{

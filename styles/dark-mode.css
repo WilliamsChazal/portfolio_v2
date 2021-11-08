@@ -146,9 +146,6 @@ p {
   background-size: cover;
   -webkit-transition: ease-in 0.6s;
   transition: ease-in 0.6s;
-  /* .grid {
-        background: rgb(32, 32, 32);
-      } */
 }
 
 .dark-mode #close_games {
@@ -382,6 +379,104 @@ p {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 5, 5, 0.747)), to(#303030)) !important;
   background: linear-gradient(180deg, rgba(5, 5, 5, 0.747) 0%, #303030 100%) !important;
   border: 1px solid #000000;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1300px) {
+  .dark-mode {
+    background-image: url("../assets/background/night-mode-phone.svg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: ease-in 0.6s;
+    transition: ease-in 0.6s;
+  }
+  .dark-mode .topnav {
+    background: linear-gradient(344.38deg, rgba(0, 0, 0, 0.6) 12.66%, rgba(0, 0, 0, 0.74) 89.61%);
+    color: white;
+    border: black;
+  }
+  .dark-mode .topnav h2 {
+    font-family: "Source Code Pro", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .dark-mode .topnav div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .dark-mode .topnav #logo {
+    background-image: url(../assets/img/logo-dark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 5px;
+    -webkit-box-shadow: inset 3px -2px 4px 2px rgba(160, 158, 158, 0.25);
+            box-shadow: inset 3px -2px 4px 2px rgba(160, 158, 158, 0.25);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .dark-mode .topnav #btn {
+    color: white;
+    margin-left: 50px;
+    padding: 1px 1px 1px 1px;
+    top: 20px;
+    -webkit-box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
+            box-shadow: inset 1px -2px 2px rgba(0, 0, 0, 0.15), inset -1px 2px 2px rgba(0, 0, 0, 0.15);
+    border: 1px solid #3a3939;
+    border-radius: 10px;
+  }
+  .dark-mode .topnav div#digital-clock__time {
+    font-family: "Digital-7 Mono" !important;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  .dark-mode .topnav #digital-clock__date--day {
+    margin-left: 10px;
+  }
+  .dark-mode .topnav #switch {
+    margin-left: 5px;
+  }
+  .dark-mode div #about-me {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), to(rgba(0, 0, 0, 0.893)));
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.893) 100%);
+    color: white;
+  }
+  .dark-mode .bottomNav nav {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.5025)));
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5025) 100%);
+    border: 1px solid black;
+  }
+  .dark-mode .bottomNav nav span {
+    color: white;
+  }
+  .dark-mode .bottomNav nav p {
+    font-family: "Source Code Pro", sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 0px;
+    margin-bottom: 7px;
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 1.2rem;
+  }
+  .dark-mode .bottomNav nav img {
+    -webkit-filter: contrast(90%);
+            filter: contrast(90%);
+    width: 80px;
+    height: auto;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 760px) {
