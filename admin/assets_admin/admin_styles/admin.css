@@ -1,6 +1,5 @@
 body {
     background-color: #eee;
-    overflow: hidden;
 }
 
 .container-fluid{
@@ -36,7 +35,7 @@ body {
     justify-content: center;
     align-content: flex-end;
     border-radius: 50%;
-    overflow: hidden
+    overflow: auto
 }
 
 .header_img img {
