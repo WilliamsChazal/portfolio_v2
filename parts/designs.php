@@ -38,7 +38,6 @@
     
       <span>
       
-    
-    <button>Voir le Design</button>
+
       </span>
      

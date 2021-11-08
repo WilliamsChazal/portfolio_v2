@@ -301,7 +301,79 @@ a:active {
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1300px) {
+  .games {
+    display: none;
+  }
+  .socials {
+    height: auto;
+    width: 100%;
+    right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Source Code Pro", sans-serif;
+    margin-top: 1.3rem;
+  }
+  .socials p {
+    font-size: 1rem;
+  }
+  .socials div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .socials div span {
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    row-gap: 0.8rem;
+  }
+  .socials div span img {
+    height: 70px;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(33.75%, rgba(255, 255, 255, 0.713548)), color-stop(49.48%, rgba(255, 255, 255, 0.58)), to(rgba(255, 255, 255, 0.69)));
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.713548) 33.75%, rgba(255, 255, 255, 0.58) 49.48%, rgba(255, 255, 255, 0.69) 100%);
+    border: 1px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(9px);
+            backdrop-filter: blur(9px);
+    border-radius: 15px;
+  }
+  .socials div p {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(0.01%, rgba(255, 255, 255, 0.24)), to(#FFFFFF));
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.24) 0.01%, #FFFFFF 100%);
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
+    border-radius: 25px;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    cursor: pointer;
+  }
+  .socials div p:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 760px) {
   .games {
     display: none;
   }

@@ -65,7 +65,75 @@ section.bottomNav{
         }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
+
+@media only screen and (min-device-width : 768px) and (max-device-width :1300px) {
+    /* Styles pour cette Media Queries */
+    section.bottomNav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    
+            nav{
+                position: inherit;
+                z-index: 0;
+                display: flex;
+                width: 100%;
+                height: auto;
+                border: white solid 5px;
+                overflow: hidden;
+                position: fixed;
+                bottom: 0;
+                justify-content: space-evenly;
+                align-items: center;
+                background:$linear-3;
+                border: 1px solid #FFF8F8;
+                box-sizing: border-box;
+                border-radius: 15px;
+                 margin-bottom: 10px;
+    
+                    div{
+                        margin-top: 10px;
+                        justify-content: center;
+                        align-items: center;
+                            p{
+                                margin-left: 0px;
+                                margin-bottom: 7px;
+                                font-family: $font-1;
+                                font-size:1.2rem;
+                                background:white;
+                                text-align: center;
+                                border-radius: 25px;
+                                padding: 5px 5px 5px 5px;
+                                
+                            }
+    
+                    }
+                img{
+                    filter: contrast(90%);
+                    width: 80px;
+                    height: auto;   
+                }
+                .hover:active{
+                    cursor: pointer;
+                    -ms-transform: scale(1.2); /* IE 9 */
+                    -webkit-transform: scale(1.2); /* Safari 3-8 */
+                    transform: scale(1.2);
+                    font-weight: 700;
+                }
+    
+               #projet{
+                   display: block;
+                   }
+                   
+               }    
+            }
+    }
+
+
+
+
+    @media only screen and (min-width : 320px) and (max-width : 760px) {
     /* Styles pour cette Media Queries */
     section.bottomNav{
         width: 100%;
