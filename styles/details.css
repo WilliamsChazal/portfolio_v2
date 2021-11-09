@@ -187,12 +187,12 @@
     -webkit-backdrop-filter: blur(9px);
             backdrop-filter: blur(9px);
     border-radius: 25px;
-    width: 60px;
-    height: 60px;
+    width: 60px !important;
+    height: 60px !important;
   }
   .modal_details--content .icons span p {
     padding: 2px 2px 2px 2px;
-    font-size: 1rem !important;
+    font-size: 1.5rem !important;
     text-align: center;
     background: -webkit-gradient(linear, left top, right top, color-stop(3.8%, #FFFFFF), color-stop(94.57%, rgba(255, 255, 255, 0.69)));
     background: linear-gradient(90deg, #FFFFFF 3.8%, rgba(255, 255, 255, 0.69) 94.57%);
@@ -256,7 +256,7 @@
   .modal_details--content .details-projets span p {
     font-family: 'Source Code Pro';
     padding: 1rem 1rem 0.5rem 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
