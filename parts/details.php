@@ -19,7 +19,7 @@
             <span><img src="../admin/assets_admin/admin_logo/<?=$result['projet_logo']?>" alt="" srcset="">
                 <a href="<?=$result['projet_link']?>" target="_blank"><p><?=$result['projet_titre']?></p></a>
             </span>
-            <span ><img src="../assets/icons/github.svg" alt="" srcset="">
+            <span ><img src="././../admin/assets_admin/admin_logo/github (3).png" alt="" srcset="">
                 <a href="<?=$result['projet_github']?>" target="_blank"> <p class='hover'>Github</p> </a>
             </span>
         </div>
