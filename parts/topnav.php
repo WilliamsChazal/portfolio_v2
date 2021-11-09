@@ -1,7 +1,7 @@
 <nav class="topnav">
     <div>
     <a href="../admin/index.php" target="_blank" rel="noopener noreferrer"><button id='logo'></button></a>
-        <button  id='btn'><h2>Williams Chazal</h2></button>
+        <button  id='btn'><h2>Qui suis je ?</h2></button>
         
     </div>
     <!-- <div><h1>Developpeur Web   Webdesigner</h1></div> -->
@@ -22,7 +22,7 @@
         </p>
     <div>
         <span class='img'><img src="../assets/img/photo-1.png" alt=""></span>
-        <span><button>Télécharger mon CV</button></span>
+        <span><a href="./../admin/assets_admin/cv-williams-chazal.pdf" target="_blank" rel="noopener noreferrer"><button>Télécharger mon CV</button></span></a>
         <span><button class="close"></button></span>
 </div>
     

@@ -85,12 +85,14 @@
 #about-me{
     background: $linear-2;
     width: 40%;
-    top: 0px;
+    top: 8%;
     border-radius: 0px 0px 10px 10px;
     display: flex;
     justify-content: space-around;
     margin-left: 375px;
     font-family: $font-1;
+    position: absolute;
+    z-index: 999;
         p{
             font-family: $font-1;
             height: 100%;

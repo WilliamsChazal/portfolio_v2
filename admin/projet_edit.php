@@ -54,6 +54,7 @@ if($_SESSION['username']){
     <select name="projet_type" id="input_type">
         <option value="jeu">Jeu</option>
         <option value="web">Web</option>
+        <option value="Wordpress">WordPress</option>
     </select value="<?= $result['projet_type']?>" >
 </div>
 
