@@ -18,13 +18,11 @@ button, input, select {
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 img, video {
@@ -43,5 +41,4 @@ table {
 
 td, th {
   padding: 0;
-}
-/*# sourceMappingURL=rest.css.map */
+}/*# sourceMappingURL=rest.css.map */

@@ -1,18 +1,25 @@
+@import url("http://fonts.cdnfonts.com/css/digital-7-mono");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: "Alexana";
+  src: url("../assets/fonts/Alexana.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Minitel";
+  src: url("../assets/fonts/Minitel.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Digital-7";
+  src: url("../assets/fonts/digital-7.ttf") format("ttf");
+}
 section.bottomNav {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 section.bottomNav nav {
   position: inherit;
   z-index: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 60%;
   height: auto;
@@ -20,30 +27,19 @@ section.bottomNav nav {
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
   background: linear-gradient(89.99deg, rgba(255, 252, 252, 0.59) 0.01%, rgba(255, 253, 253, 0.470656) 99.98%, rgba(255, 255, 255, 0.2) 99.99%);
   border: 1px solid #FFF8F8;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 35px;
   margin-bottom: 10px;
 }
-
 section.bottomNav nav div {
   margin-top: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 section.bottomNav nav div p {
   margin-left: 50px;
   margin-bottom: 7px;
@@ -53,27 +49,21 @@ section.bottomNav nav div p {
   border-radius: 25px;
   padding: 5px 5px 5px 5px;
 }
-
 section.bottomNav nav img {
-  -webkit-filter: contrast(90%);
-          filter: contrast(90%);
+  filter: contrast(90%);
   width: 60px;
   height: auto;
 }
-
 section.bottomNav nav .hover:hover {
   cursor: pointer;
   /* IE 9 */
-  -webkit-transform: scale(1.2);
   /* Safari 3-8 */
   transform: scale(1.2);
   font-weight: 700;
 }
-
 section.bottomNav nav #projet {
   text-align: center;
 }
-
 section.bottomNav nav #projet p {
   margin-left: 0 !important;
   text-align: center;
@@ -84,19 +74,13 @@ section.bottomNav nav #projet p {
   /* Styles pour cette Media Queries */
   section.bottomNav {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin: auto;
   }
   section.bottomNav nav {
     position: inherit;
     z-index: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100%;
     height: auto;
@@ -104,27 +88,18 @@ section.bottomNav nav #projet p {
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
     background: linear-gradient(89.99deg, rgba(255, 252, 252, 0.59) 0.01%, rgba(255, 253, 253, 0.470656) 99.98%, rgba(255, 255, 255, 0.2) 99.99%);
     border: 1px solid #FFF8F8;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     border-radius: 15px;
     margin-bottom: 10px;
   }
   section.bottomNav nav div {
     margin-top: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   section.bottomNav nav div p {
     margin-left: 0px;
@@ -137,15 +112,13 @@ section.bottomNav nav #projet p {
     padding: 5px 5px 5px 5px;
   }
   section.bottomNav nav img {
-    -webkit-filter: contrast(90%);
-            filter: contrast(90%);
+    filter: contrast(90%);
     width: 80px;
     height: auto;
   }
   section.bottomNav nav .hover:active {
     cursor: pointer;
     /* IE 9 */
-    -webkit-transform: scale(1.2);
     /* Safari 3-8 */
     transform: scale(1.2);
     font-weight: 700;
@@ -154,23 +127,16 @@ section.bottomNav nav #projet p {
     display: block;
   }
 }
-
 @media only screen and (min-width: 320px) and (max-width: 760px) {
   /* Styles pour cette Media Queries */
   section.bottomNav {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   section.bottomNav nav {
     position: inherit;
     z-index: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100%;
     height: auto;
@@ -178,27 +144,18 @@ section.bottomNav nav #projet p {
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
     background: linear-gradient(89.99deg, rgba(255, 252, 252, 0.59) 0.01%, rgba(255, 253, 253, 0.470656) 99.98%, rgba(255, 255, 255, 0.2) 99.99%);
     border: 1px solid #FFF8F8;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     border-radius: 15px;
     margin-bottom: 10px;
   }
   section.bottomNav nav div {
     margin-top: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   section.bottomNav nav div p {
     margin-left: 0px;
@@ -211,15 +168,13 @@ section.bottomNav nav #projet p {
     padding: 2px 2px 2px 2px;
   }
   section.bottomNav nav img {
-    -webkit-filter: contrast(90%);
-            filter: contrast(90%);
+    filter: contrast(90%);
     width: 40px;
     height: auto;
   }
   section.bottomNav nav .hover:active {
     cursor: pointer;
     /* IE 9 */
-    -webkit-transform: scale(1.2);
     /* Safari 3-8 */
     transform: scale(1.2);
     font-weight: 700;
@@ -227,5 +182,4 @@ section.bottomNav nav #projet p {
   section.bottomNav nav #projet {
     display: none;
   }
-}
-/*# sourceMappingURL=bottomNav.css.map */
+}/*# sourceMappingURL=bottomNav.css.map */
