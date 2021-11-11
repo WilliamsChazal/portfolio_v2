@@ -29,7 +29,7 @@ if($_SESSION['username']){
          <div class="col projet">
             <div class="row">
                 <div class="col">
-                    <a href="home.php"><button type="button" class="btn btn-info">Retour</button></a>
+                    <a href="home.php"><button type="button" class="btn btn back">Retour</button></a>
                     <a href="add_socials.php"><button type="button" class="btn btn-primary">Ajouter un réseau social</button></a>
                     
             </div>

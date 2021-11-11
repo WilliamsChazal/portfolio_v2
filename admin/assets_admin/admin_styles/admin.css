@@ -48,3 +48,11 @@ body {
 .card{
     margin-top: 20px!important;
 }
+
+.back{
+    background: #071430!important;
+    color: white!important;
+}
+.back:hover{
+    background: #1844a5!important;
+}

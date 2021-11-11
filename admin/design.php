@@ -26,7 +26,7 @@ if($_SESSION['username']){
          <div class="col projet">
             <div class="row">
                 <div class="col">
-                <a href="home.php"><button type="button" class="btn btn-info">Retour</button></a>
+                <a href="home.php"><button type="button" class="btn back">Retour</button></a>
                 <a href="add_design.php"><button type="button" class="btn btn-primary">Ajouter un design</button></a></div>
             </div>
          <?php
@@ -35,12 +35,12 @@ if($_SESSION['username']){
             <div class="card mt-4 mb-4">  
                 <h5 class="card-header "><img src="assets_admin/admin_design/<?= $design['design_thumbnail'] ?>" class="card-img-top  logo" alt="..."><?=$design['design_titre']?> </h5>
                     <div class="card-body text-center">
-                        <img src="./assets_admin/admin_design/<?= $design['design_file'] ?>" class='image' class="card-img-top" alt="..." class="card-img-top" alt="...">
+                        <img src="./assets_admin/admin_design/<?= $design['design_thumbnail'] ?>" class='image' class="card-img-top" alt="..." class="card-img-top" alt="...">
                         <p class="card-text list-group-item"><?=$design['design_texte']?></p>
 
                         <ul class="list-group list-group-flush">
       
-                            <li class="list-group-item"><a href="<?= $design['design_file'] ?>" target="_blank" class="btn btn-primary">Voir la maquette</a>
+                            <li class="list-group-item"><a href="assets_admin/admin_design/<?= $design['design_file'] ?>" target="_blank" class="btn btn-primary">Voir la maquette</a>
 
                             </li>
                         </ul>

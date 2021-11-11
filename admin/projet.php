@@ -26,7 +26,7 @@ if($_SESSION['username']){
          <div class="col projet">
             <div class="row">
                 <div class="col">
-                    <a href="home.php"><button type="button" class="btn btn-info">Retour</button></a>
+                    <a href="home.php"><button type="button" class="btn btn back">Retour</button></a>
                     <a href="add_projet.php"><button type="button" class="btn btn-primary">Ajouter un projet</button></a></div>
             </div>
          <?php
@@ -41,7 +41,7 @@ if($_SESSION['username']){
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><?=$projet['projet_date_debut']?> &nbsp; <?=$projet['projet_date_fin']?></li>
                             <li class="list-group-item"<?=$projet['projet_type']?>></li>
-                            <li class="list-group-item"><a href="<?=$projet['projet_link']?> " target="_blank" class="btn btn-primary">lien du site</a>
+                            <li class="list-group-item"><a href="<?=$projet['projet_link']?> " target="_blank" class="btn btn-primary">Lien du site</a>
                              <a href="<?=$projet['projet_github']?>" target="_blank" class="btn btn-primary">Github</a>
                             </li>
                         </ul>

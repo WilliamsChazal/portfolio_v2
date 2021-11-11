@@ -1,6 +1,6 @@
 <nav class="topnav">
     <div>
-    <a href="../admin/index.php" target="_blank" rel="noopener noreferrer"><button id='logo'></button></a>
+    <a href="../includes/mentions-legales.php" target="_blank" rel="noopener noreferrer"><button id='logo'></button></a>
         <button  id='btn'><h2>Qui suis je ?</h2></button>
         
     </div>
