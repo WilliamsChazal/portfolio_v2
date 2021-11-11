@@ -1,5 +1,8 @@
 body {
     background-color: #eee;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .container-fluid{
@@ -14,6 +17,10 @@ body {
 }
 .logo{
     width: 60px;
+}
+.image{
+    width: 50%;
+    height: auto;
 }
 .projets_details--image{
     width: 50%;

@@ -14,21 +14,21 @@
     <div class="dropdown"> <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle nav-link " id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">  <i class="fa fa-first-order"></i><span class="ms-2">Designs</span></a>
         <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
             <li><a class="dropdown-item" href="design.php">Voir les designs</a></li>
-            <li><a class="dropdown-item" href="add_design.php">Ajouter un designs</a></li>
+            <li><a class="dropdown-item" href="add_design.php">Ajouter un design</a></li>
         </ul>
     </div>
 
     <div class="dropdown"> <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle nav-link " id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">  <i class="fa fa-cog"></i><span class="ms-2">Compétences</span></a>
         <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
             <li><a class="dropdown-item" href="skills.php">Voir les Compétences</a></li>
-            <li><a class="dropdown-item" href="add_skills.php">Ajouter une compétences</a></li>
+            <li><a class="dropdown-item" href="add_skills.php">Ajouter une compétence</a></li>
         </ul>
     </div>
 
     <div class="dropdown"> <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle nav-link " id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">  <i class="fa fa-eye"></i><span class="ms-2">Socials</span></a>
         <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-            <li><a class="dropdown-item" href="socials/socials.php">Voir les socials</a></li>
-            <li><a class="dropdown-item" href="socials/add_socials.php">Ajouter un socials</a></li>
+            <li><a class="dropdown-item" href="socials.php">Voir les réseaux sociaux</a></li>
+            <li><a class="dropdown-item" href="add_socials.php">Ajouter un réseau social</a></li>
         </ul>
     </div>
 

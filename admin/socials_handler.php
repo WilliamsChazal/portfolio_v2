@@ -9,7 +9,7 @@ if($_SESSION['username']){
         isset($_POST['social_link'])&&!empty($_POST['social_link'])&&
         isset($_FILES['social_logo']) && !empty($_FILES['social_logo'])){
     
-            require_once("../db-connect.php");
+            require_once("db-connect.php");
             $titre =strip_tags($_POST['social_titre']);
             $link =strip_tags($_POST['social_link']);
                     
@@ -30,7 +30,7 @@ if($_SESSION['username']){
                             }     
                         }  else {     
                     
-                            $target_dir = "./../assets_admin/admin_logo/";
+                            $target_dir = "./assets_admin/admin_logo/";
                             $target_file = $target_dir . basename($_FILES["social_logo"]["name"]);
                             $uploadOk = 1;
                             $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
