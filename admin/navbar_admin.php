@@ -11,10 +11,29 @@
         </ul>
     </div>
 
+    <div class="dropdown"> <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle nav-link " id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">  <i class="fa fa-first-order"></i><span class="ms-2">Designs</span></a>
+        <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="design.php">Voir les designs</a></li>
+            <li><a class="dropdown-item" href="add_design.php">Ajouter un designs</a></li>
+        </ul>
+    </div>
 
-        <li> <a href="design.php" class="nav-link text-white"> <i class="fa fa-first-order"></i><span class="ms-2">Designs</span> </a> </li>
-        <li> <a href="skills.php" class="nav-link text-white"> <i class="fa fa-cog"></i><span class="ms-2">Compétences</span> </a> </li>
-        <li> <a href="socials/socials.php" class="nav-link text-white"> <i class="fa fa-eye" aria-hidden="true"></i><span class="ms-2">Socials</span> </a> </li>
+    <div class="dropdown"> <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle nav-link " id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">  <i class="fa fa-cog"></i><span class="ms-2">Compétences</span></a>
+        <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="skills.php">Voir les Compétences</a></li>
+            <li><a class="dropdown-item" href="add_skills.php">Ajouter une compétences</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown"> <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle nav-link " id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">  <i class="fa fa-eye"></i><span class="ms-2">Socials</span></a>
+        <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="socials/socials.php">Voir les socials</a></li>
+            <li><a class="dropdown-item" href="socials/add_socials.php">Ajouter un socials</a></li>
+        </ul>
+    </div>
+
+
+        
     </ul>
     <hr>
     

@@ -24,6 +24,11 @@ if($_SESSION['username']){
         </div>
 
          <div class="col projet">
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-info">Retour</button>
+                    <button type="button" class="btn btn-info">Info</button></div>
+            </div>
          <?php
     foreach ($result as $projet) {
 ?>
@@ -51,8 +56,7 @@ if($_SESSION['username']){
         </div>
 
         <div class="col">
-            One of three columns
-        </div>
+            col 3
     </div>
 </div>
 
