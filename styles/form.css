@@ -4,19 +4,23 @@
   font-family: "Alexana";
   src: url("../assets/fonts/Alexana.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Minitel";
   src: url("../assets/fonts/Minitel.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Digital-7";
   src: url("../assets/fonts/digital-7.ttf") format("ttf");
 }
+
 .modal_contact {
   left: 25%;
   top: 15%;
   margin: auto;
   z-index: 999;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.95)), to(#FFFFFF));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, #FFFFFF 100%);
   -webkit-backdrop-filter: blur(22px);
           backdrop-filter: blur(22px);
@@ -24,10 +28,12 @@
   font-size: 1rem;
   font-family: "Source Code Pro", sans-serif;
 }
+
 .modal_contact h3 {
   font-weight: bold;
   padding-bottom: 0.3rem;
 }
+
 .modal_contact p {
   padding: 0.3rem 0.3rem 0.3rem;
 }
@@ -38,67 +44,96 @@
 }
 
 .contact_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   color: black;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
   overflow: auto;
   overflow: scroll;
   overflow-x: hidden;
 }
+
 .contact_form input {
   width: 80%;
   padding: 0.3rem 0.3rem 0.3rem 0.3rem;
 }
+
 .contact_form textarea {
   width: 80%;
   height: 90px;
 }
+
 .contact_form label {
   padding: 0.3rem 0.3rem 0.3rem 0rem;
   font-weight: bold;
 }
+
 .contact_form .contact_form--child {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 50%;
   padding: 1rem 1rem 1rem 1rem;
 }
+
 .contact_form .contact_form--child--2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 50%;
   padding: 1rem 1rem 1rem 1rem;
 }
+
 .contact_form .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 1rem;
   width: 80%;
 }
+
 .contact_form .button button {
   background: white;
   color: black !important;
   border-radius: 15px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 50%;
   color: white;
   padding: 0.3rem 0.3rem 0.3rem 0.3rem;
   cursor: pointer;
 }
+
 .contact_form .button button:hover {
   background: black;
   color: white !important;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1300px) {
+@media only screen and (min-device-width: 900px) and (max-device-width: 1400px) {
   .modal_contact {
     left: 0%;
     top: 15%;
     margin: auto;
     z-index: 999;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.95)), to(#FFFFFF));
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, #FFFFFF 100%);
     -webkit-backdrop-filter: blur(22px);
             backdrop-filter: blur(22px);
@@ -113,7 +148,6 @@
   .modal_contact p {
     padding: 0.6rem 0.6rem 0.6rem 0.6rem;
   }
-
   .contact_form--text {
     text-align: center;
     padding-top: 1rem;
@@ -121,14 +155,16 @@
   .contact_form--text p {
     font-size: 1.5rem;
   }
-
   .contact_form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 100%;
     color: black;
-    -moz-column-gap: 0rem;
-         column-gap: 0rem;
+    -webkit-column-gap: 0rem;
+            column-gap: 0rem;
   }
   .contact_form input {
     width: 80%;
@@ -144,23 +180,43 @@
     font-weight: bold;
   }
   .contact_form .contact_form--child {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     padding: 1rem 1rem 1rem 1rem;
   }
   .contact_form .contact_form--child--2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     padding: 1rem 1rem 1rem 1rem;
   }
   .contact_form .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 1rem;
     width: 100%;
   }
@@ -168,7 +224,9 @@
     background: white;
     color: black !important;
     border-radius: 15px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 50%;
     color: white;
     padding: 0.3rem 0.3rem 0.3rem 0.3rem;
@@ -180,12 +238,14 @@
     color: white !important;
   }
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 760px) {
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 899px) {
   .modal_contact {
     left: 0%;
     top: 5%;
     margin: auto;
     z-index: 999;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.95)), to(#FFFFFF));
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, #FFFFFF 100%);
     -webkit-backdrop-filter: blur(22px);
             backdrop-filter: blur(22px);
@@ -200,7 +260,6 @@
   .modal_contact p {
     padding: 0.3rem 0.3rem 0.3rem;
   }
-
   .contact_form--text {
     text-align: center;
     padding-top: 0.5rem;
@@ -208,14 +267,16 @@
   .contact_form--text p {
     font-size: 0.8rem;
   }
-
   .contact_form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 100%;
     color: black;
-    -moz-column-gap: 0rem;
-         column-gap: 0rem;
+    -webkit-column-gap: 0rem;
+            column-gap: 0rem;
   }
   .contact_form input {
     width: 80%;
@@ -230,23 +291,43 @@
     font-weight: bold;
   }
   .contact_form .contact_form--child {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     padding: 1rem 1rem 1rem 1rem;
   }
   .contact_form .contact_form--child--2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     padding: 1rem 1rem 1rem 1rem;
   }
   .contact_form .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 1rem;
     width: 100%;
   }
@@ -254,7 +335,9 @@
     background: white;
     color: black !important;
     border-radius: 15px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 50%;
     color: white;
     padding: 0.3rem 0.3rem 0.3rem 0.3rem;
@@ -264,4 +347,5 @@
     background: black;
     color: white !important;
   }
-}/*# sourceMappingURL=form.css.map */
+}
+/*# sourceMappingURL=form.css.map */

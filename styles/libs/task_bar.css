@@ -4,26 +4,39 @@
   font-family: "Alexana";
   src: url("../assets/fonts/Alexana.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Minitel";
   src: url("../assets/fonts/Minitel.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Digital-7";
   src: url("../assets/fonts/digital-7.ttf") format("ttf");
 }
+
 .task_bar {
   font-family: "Source Code Pro", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(255, 255, 255, 0.555)), to(rgba(255, 255, 255, 0.55)));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.555) 50%, rgba(255, 255, 255, 0.55) 100%);
-  box-sizing: border-box;
-  box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px 15px 0px 0px;
 }
+
 .task_bar span {
   margin-left: 20px;
   margin-right: 20px;
@@ -33,6 +46,7 @@
   position: absolute;
   z-index: 11;
 }
+
 .modal_generic .task_bar {
   cursor: move;
 }
@@ -80,17 +94,26 @@
   z-index: 10;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 899px) {
   .task_bar {
     font-family: "Source Code Pro", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     height: 45px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, white), to(white));
     background: linear-gradient(180deg, white 50%, white 100%);
-    box-sizing: border-box;
-    box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px 15px 0px 0px;
     font-size: 0.8rem;
   }
@@ -98,7 +121,6 @@
     margin-left: 20px;
     margin-right: 20px;
   }
-
   .modal_generic {
     position: absolute;
     z-index: 11;
@@ -106,4 +128,5 @@
   .modal_generic .task_bar {
     cursor: auto;
   }
-}/*# sourceMappingURL=task_bar.css.map */
+}
+/*# sourceMappingURL=task_bar.css.map */

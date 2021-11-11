@@ -22,11 +22,13 @@ button, input, select {
 }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 img, video {
@@ -51,26 +53,32 @@ td, th {
   font-family: "Alexana";
   src: url("../assets/fonts/Alexana.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Minitel";
   src: url("../assets/fonts/Minitel.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Digital-7";
   src: url("../assets/fonts/digital-7.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Alexana";
   src: url("../assets/fonts/Alexana.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Minitel";
   src: url("../assets/fonts/Minitel.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Digital-7";
   src: url("../assets/fonts/digital-7.ttf") format("ttf");
 }
+
 html {
   height: 100%;
   overflow: hidden;
@@ -82,6 +90,7 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: ease-in 0.6s;
   transition: ease-in 0.6s;
   overflow: hidden;
 }
@@ -103,44 +112,60 @@ p {
   width: 29.05px;
   height: 29px;
   background: #FD0808;
-  box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
   cursor: pointer;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .modal {
   display: none;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1300px) {
-  .close {
-    width: 40px !important;
-    height: 40px !important;
-    background: #FD0808;
-    box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    cursor: pointer;
-    box-sizing: border-box;
-  }
-}
-@media only screen and (min-device-width: 320px) and (max-device-width: 760px) {
+@media only screen and (min-device-width: 900px) and (max-device-width: 1400px) {
   body {
     background-image: url("../assets/background/day-mode-phone.svg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-transition: ease-in 0.6s;
+    transition: ease-in 0.6s;
+  }
+  .close {
+    width: 40px !important;
+    height: 40px !important;
+    background: #FD0808;
+    -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+            box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 899px) {
+  body {
+    background-image: url("../assets/background/day-mode-phone.svg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: ease-in 0.6s;
     transition: ease-in 0.6s;
     overflow: hidden;
   }
-
   .close {
     width: 20px !important;
     height: 20px !important;
     background: #FD0808;
-    box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+            box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
     cursor: pointer;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
