@@ -3,7 +3,7 @@
         require_once('../admin/db-connect.php');
         /* $id = strip_tags($_GET['id']); */
         /* $sql ='SELECT*FROM `projets` WHERE `idprojet`=:id'; */
-        $sql ='SELECT*FROM `projets`';
+        $sql ='SELECT*FROM `projets` ORDER BY idprojet DESC';
         $query = $db->prepare($sql);
       /*   $query->bindValue(':id', $id, PDO::PARAM_STR); */
         $query ->execute();
