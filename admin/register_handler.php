@@ -23,14 +23,14 @@ if(
 
 
             $_SESSION['success']='connexion réussie &#128516 ';
-            header('Location:home.php');
+            header('Location:index.php');
         }else {
             $_SESSION['error']='Les mots de passe ne sont pas identiques ! &#128552 ';
-            header('Location:register.php.php'); 
+            header('Location:register.php'); 
         }
         
 
 }else{
     $_SESSION['error']='Remplissez tous les champs ! &#128531 ';
-    header('Location:register.php.php');
+    header('Location:register.php');
 }

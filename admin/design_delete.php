@@ -14,7 +14,7 @@ if($_SESSION['username']){
         $query = $db->prepare($sql);
         $query->bindValue(':id', $id, PDO::PARAM_INT);
         $query ->execute();
-        /* header('Location:home.php'); */
+        header('Location:design.php');
         echo 'Design supprimé avec succès <br> <a href="design.php"><button>Retour</button></a>' ;
         
     }else{

@@ -152,7 +152,7 @@ if($_SESSION['username']){
                         $query->execute();
                         echo 'Sucess';
                         echo 'Les données ont été enregistré dans le base de données !'; 
-                        echo'<br><a href=home.php> Retour </a>';
+                        echo'<br><a href=design.php> Retour </a>';
                     } else {
                         echo 'Remplissez tous les champs';echo '<br><a href=design.php> Retour </a>';
                     } 
