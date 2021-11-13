@@ -95,6 +95,10 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    overflow: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 70vh;
     padding: 5px 5px 5px 5px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;

@@ -63,6 +63,10 @@
           .modal_projets--content{
             display: flex;
             flex-direction: row;
+            overflow: auto;
+            overflow: scroll;
+            overflow-x: hidden;
+            height: 70vh ;
             padding: 5px 5px 5px 5px;
             flex-wrap: wrap;
             text-align: center;
